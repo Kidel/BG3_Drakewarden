@@ -12,7 +12,7 @@
                     <attribute id="Name" type="FixedString" value="Drakewarden"/>
                     <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
                     <attribute id="PrimaryAbility" type="uint8" value="2"/>
-                    <attribute id="ProgressionTableUUID" type="guid" value="ddddde99-e329-471d-a656-bbd5a363d7c8"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="dddddad5-31e0-41b6-aad9-41a55c2f8354"/>
                     <attribute id="SoundClassType" type="FixedString" value="Ranger"/>
                     <attribute id="SpellCastingAbility" type="uint8" value="5"/>
                     <attribute id="UUID" type="guid" value="ddddd47d-cc28-400e-bfa9-3a85baa70f24"/>

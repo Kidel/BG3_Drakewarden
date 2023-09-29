@@ -1,0 +1,5 @@
+// TODO: 
+// Draconic Essence base for each type 
+//   + aura 
+// Resistance based on aura at level 5 
+// 
