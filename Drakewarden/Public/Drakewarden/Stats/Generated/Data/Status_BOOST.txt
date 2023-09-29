@@ -3,3 +3,15 @@
 //   + aura 
 // Resistance based on aura at level 5 
 // 
+
+
+new entry "ALWAYS_FLYINGDRAGON"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Icon" "None"
+data "Boosts" ""
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting"
+data "AnimationLoop" "b94b9184-9bd0-4840-be7d-003700173b37"
+
+// data "RemoveConditions" "HasStatus('SG_Incapacitated') or HasStatus('SG_Prone') or HasStatus('SG_Stunned')"
+// ^ as a boost condition in a passive? So that it gets reapplied eventually

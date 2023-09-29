@@ -19,8 +19,9 @@ data "PersonalStatusImmunities" "SG_Charmed;SG_Poisoned;BLEEDING;GAPING_WOUND;SU
 data "ActionResources" "ActionPoint:1;BonusActionPoint:1;Movement:12;ReactionActionPoint:1"
 data "PoisonResistance" "Immune"
 data "Class" "Artificer"
-data "StepsType" "Metal"
+data "StepsType" "Clawed"
 data "GameSize" "Medium"
+data "Flags" "SlippingImmunity;Floating"
 
 new entry "Companion_Drakewarden_5"
 type "Character"
@@ -53,3 +54,4 @@ data "Armor" "15"
 data "Strength" "20"
 data "Dexterity" "20"
 data "Passives" "Artificer_ArcaneJolt_Passive_Dog_2;Artificer_ArcaneJolt_OnAttack_Passive;Artificer_BattleCompanion_Deflect_2;PackTactics;ShortResting;Artificer_CompanionsBond_Creature;AttackOfOpportunity;DarknessRules;Darkvision"
+

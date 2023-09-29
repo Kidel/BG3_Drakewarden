@@ -7,7 +7,7 @@
 
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Draconic Gift"/>
-                    <attribute id="Spells" type="LSString" value="Shout_Thaumaturgy"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Thaumaturgy;Shout_ComprehendLanguages"/>
                     <attribute id="UUID" type="guid" value="ddddddd1-c41b-444a-83aa-9748e03e9e16"/>
                 </node>
 

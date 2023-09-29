@@ -6,25 +6,6 @@
             <children>
 
                 <node id="Progression"> Ranger override
-                    <attribute id="Boosts" type="LSString" value="ProficiencyBonus(SavingThrow,Strength);ProficiencyBonus(SavingThrow,Dexterity);Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons);Proficiency(MartialWeapons)"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Ranger"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,3);SelectPassives(d0f13dda-eb37-41f5-aea5-2683f0229e2e,1,FavoredEnemy);SelectPassives(72c63024-60af-486e-a180-c7aeee5d77c1,1,NaturalExplorer);SelectAbilityBonus(b9149c8e-52c8-46e5-9cb6-fc39301c05fe,AbilityBonus,2,1)"/>
-                    <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
-                    <attribute id="UUID" type="guid" value="ad1084b1-b99f-6720-cfdd-cf82ad44345b"/>
-                </node>
-                <node id="Progression">
-                    <attribute id="Boosts" type="LSString" value="Proficiency(LightArmor);Proficiency(MediumArmor);Proficiency(Shields);Proficiency(SimpleWeapons)"/>
-                    <attribute id="IsMulticlass" type="bool" value="true"/>
-                    <attribute id="Level" type="uint8" value="1"/>
-                    <attribute id="Name" type="LSString" value="Ranger"/>
-                    <attribute id="ProgressionType" type="uint8" value="0"/>
-                    <attribute id="Selectors" type="LSString" value="SelectSkills(9e31661e-4c14-499d-98ca-9e00b20faf07,1);SelectPassives(d0f13dda-eb37-41f5-aea5-2683f0229e2e,1,FavoredEnemy);SelectPassives(72c63024-60af-486e-a180-c7aeee5d77c1,1,NaturalExplorer)"/>
-                    <attribute id="TableUUID" type="guid" value="8f068974-ed32-43fc-a9d9-028be1c01a9c"/>
-                    <attribute id="UUID" type="guid" value="107b5f98-bf4f-4e90-85a1-5be602055b19"/>
-                </node>
-                <node id="Progression">
                     <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1)"/>
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="Ranger"/>

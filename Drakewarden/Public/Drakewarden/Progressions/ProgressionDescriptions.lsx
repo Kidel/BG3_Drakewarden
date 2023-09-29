@@ -7,7 +7,7 @@
                 <node id="ProgressionDescription">
                     <attribute id="Description" type="TranslatedString" handle="TODO" version="1"/>
                     <attribute id="DisplayName" type="TranslatedString" handle="TODO" version="1"/>
-                    <attribute id="ExactMatch" type="FixedString" value="Drakewarden"/> <!-- Subclass Name String -->
+                    <attribute id="ExactMatch" type="FixedString" value="Drakewarden"/>
                     <attribute id="ProgressionTableId" type="guid" value="dddddad5-31e0-41b6-aad9-41a55c2f8354"/>
                     <attribute id="UUID" type="guid" value="dddcc47d-cc28-400e-bfa9-3a85baa70f24"/> 
                 </node>

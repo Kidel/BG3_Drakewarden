@@ -9,7 +9,7 @@
                     <attribute id="Author" type="LSWString" value="Lykon"/>
                     <attribute id="CharacterCreationLevelName" type="FixedString" value=""/>
                     <attribute id="Description" type="LSWString" value="https://github.com/Kidel/BG3_Drakewarden/blob/main/README.md"/>
-                    <attribute id="Folder" type="LSWString" value="Artificer"/> 
+                    <attribute id="Folder" type="LSWString" value="Drakewarden"/> 
                     <attribute id="GMTemplate" type="FixedString" value=""/>
                     <attribute id="LobbyLevelName" type="FixedString" value=""/>
                     <attribute id="MD5" type="LSWString" value=""/>
@@ -21,7 +21,7 @@
                     <attribute id="StartupLevelName" type="FixedString" value=""/>
                     <attribute id="Tags" type="LSWString" value=""/>
                     <attribute id="Type" type="FixedString" value="Add-on"/>
-					<attribute id="UUID" type="FixedString" value="ddddd2c-152d-404e-b863-c12273559e1c"/> 
+					<attribute id="UUID" type="FixedString" value="ddddddd-152d-404e-b863-c12273559e1c"/> 
 					<attribute id="Version64" type="int64" value="1"/>
                     <children>
                         <node id="PublishVersion">

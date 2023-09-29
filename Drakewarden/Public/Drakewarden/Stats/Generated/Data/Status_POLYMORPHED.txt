@@ -1,0 +1,7 @@
+new entry "DISGUISE_SELF_DRAGON"
+type "StatusData"
+using "DISGUISE_SELF_TIEFLING_MALE"
+data "Icon" "None"
+data "TemplateID" "ddda5063-a761-475a-b66e-1356d7fcab40"
+data "Boosts" ""
+data "StatusPropertyFlags" "ApplyToDead;FreezeDuration;IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
