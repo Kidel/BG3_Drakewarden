@@ -5,7 +5,7 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="11dddddd-d3ca-449c-a5c5-9e0fb310081a" />
+					<attribute id="MapKey" type="FixedString" value="00dddddd-d3ca-449c-a5c5-9e0fb310081a" />
 					<attribute id="Scale" type="float" value="0.10" />
 					<attribute id="Name" type="LSString" value="Drakewarden_Companion" />
 					<attribute id="LevelName" type="FixedString" value="" />
