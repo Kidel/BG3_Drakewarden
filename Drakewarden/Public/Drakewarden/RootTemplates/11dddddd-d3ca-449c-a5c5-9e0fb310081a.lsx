@@ -17,7 +17,7 @@
 					<attribute id="Icon" type="FixedString" value="baa20049-2ec2-07a7-b4d6-02a38b25d6ac-_(Icon_Dragon)" />
 					<attribute id="Stats" type="FixedString" value="Companion_Drakewarden_3" />
 					<attribute id="LevelOverride" type="int32" value="3" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="baa20049-2ec2-07a7-b4d6-02a38b25d6ac" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="ddd20049-2ec2-07a7-b4d6-02a38b25d6ac" />
 					<attribute id="SpellSet" type="FixedString" value="TODO" />
 					<attribute id="Archetype" type="FixedString" value="melee" />
 					<attribute id="Race" type="guid" value="eed2c9e5-d1b4-4010-c499-960e9893a067" />

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" />
+	<region id="CharacterVisualBank">
+		<node id="CharacterVisualBank">
+			<children>
+				
+				<node id="Resource">
+					<attribute id="BaseVisual" type="FixedString" value="ddd9c12d-5b6f-7543-ba76-10d1a91d93ce" />
+					<attribute id="BodySetVisual" type="FixedString" value="087006bc-5eb7-a43b-752d-e938e0b7b2bc" />
+					<attribute id="ID" type="FixedString" value="ddd20049-2ec2-07a7-b4d6-02a38b25d6ac" />
+					<attribute id="Localized" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Body_A" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115188075855912" />
+					<children>
+						<node id="MaterialOverrides">
+							<attribute id="MaterialResource" type="FixedString" value="" />
+							<children>
+								<node id="ColorPreset">
+									<attribute id="ForcePresetValues" type="bool" value="True" />
+									<attribute id="GroupName" type="FixedString" value="" />
+									<attribute id="MaterialPresetResource" type="FixedString" value="" />
+								</node>
+								<node id="MaterialPresets" />
+							</children>
+						</node>
+						<node id="Slots">
+							<attribute id="Slot" type="FixedString" value="Head" />
+							<attribute id="VisualResource" type="FixedString" value="d15ab7f8-d1df-1995-b8f7-1f227ca04ff7" />
+						</node>
+						<node id="Slots">
+							<attribute id="Slot" type="FixedString" value="Body" />
+							<attribute id="VisualResource" type="FixedString" value="eb9b450e-31ec-f7a2-ab92-98b182c01a6d" />
+						</node>
+					</children>
+				</node>
+				
+			</children>
+		</node>
+	</region>
+</save>
