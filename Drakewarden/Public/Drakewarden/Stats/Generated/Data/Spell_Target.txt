@@ -75,3 +75,5 @@ data "CastTextEvent" "Cast"
 data "SpellAnimation" "6d444cbe-28c7-4f69-9409-9b4871851d9b,,;ebd0529b-057e-491f-b124-acfed054728b,,;eeca2c0a-5f81-411e-aad8-b72362322900,,;2b6afcc6-c9c1-4dc1-9904-88bebecb892f,,;caa0d92c-5cd1-4248-9a4a-f2a8e404dac3,,;e6d40932-427f-4699-a0de-66f124d905b1,,;0b07883a-08b8-43b6-ac18-84dc9e84ff50,,;,,;,,"
 data "SpellFlags" "IsMelee;IsHarmful;IsEnemySpell"
 data "SpellAnimationIntentType" "Aggressive"
+
+// TODO rebalance slam
