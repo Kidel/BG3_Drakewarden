@@ -4116,6 +4116,8 @@
 					<attribute id="TimeStep" type="float" value="0.004166667" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
+
+					<!-- TODO remove flap sound? -->
 						
 						<node id="Events">
 							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />

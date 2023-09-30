@@ -5,15 +5,9 @@
 // 
 
 
-new entry "ALWAYS_FLYINGDRAGON"
+new entry "DRAGON_SUMMON_DEFAULT_BOOST"
 type "StatusData"
 data "StatusType" "BOOST"
 data "Icon" "None"
 data "Boosts" ""
-data "StatusPropertyFlags" "ApplyToDead;IgnoreResting"
-
-//data "DynamicAnimationTag" "2f05f704-1fbd-4b5a-9a2b-c90ba8736130"
-//data "AnimationLoop" "43dd4df4-1808-447b-9f8c-ef34b84b6b15(CUST_HeroicPose_01)"
-
-// data "RemoveConditions" "HasStatus('SG_Incapacitated') or HasStatus('SG_Prone') or HasStatus('SG_Stunned')"
-// ^ as a boost condition in a passive? So that it gets reapplied eventually
+data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog;DisableOverhead;DisablePortraitIndicator"
