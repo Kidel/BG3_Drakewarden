@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="328" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="22dddddd-d3ca-449c-a5c5-9e0fb310081a" />
+					<attribute id="Scale" type="float" value="0.25" />
+					<attribute id="Stats" type="FixedString" value="Companion_Drakewarden_7" />
+					<attribute id="LevelOverride" type="int32" value="7" />
+					<attribute id="Name" type="LSString" value="Drakewarden_Companion_2" />
+					<attribute id="ParentTemplateId" type="FixedString" value="22dddddd-d3ca-449c-a5c5-9e0fb310081a" />
+					<children>
+						
+		
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="UNSUMMON_ABLE" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams">
+							<attribute id="IsMovementEnabled" type="bool" value="True" />
+							<attribute id="IsWorldClimbingEnabled" type="bool" value="False" />
+						</node>
+						<node id="SpeakerGroupList">
+							<children>
+								<node id="SpeakerGroup">
+									<attribute id="Object" type="guid" value="00efc7b5-aa56-44d2-f282-f3ef450e1e1e" />
+								</node>
+							</children>
+						</node>
+						<node id="OnDeathActions" />
+						<node id="FootStepInfos" />
+							
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

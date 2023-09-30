@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="5" build="0"/>
+    <region id="SpellLists">
+        <node id="root">
+            <children>
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Draconic Gift"/>
+                    <attribute id="Spells" type="LSString" value="Shout_Thaumaturgy;Shout_ComprehendLanguages"/>
+                    <attribute id="UUID" type="guid" value="ddddddd1-c41b-444a-83aa-9748e03e9e16"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Drake Companion"/>
+                    <attribute id="Spells" type="LSString" value="Target_DrakeCompanion"/>
+                    <attribute id="UUID" type="guid" value="ddddddd2-c41b-444a-83aa-9748e03e9e16"/>
+                </node>
+
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Drake's Breath"/>
+                    <attribute id="Spells" type="LSString" value="Zone_DrakeBreath_Acid;Zone_DrakeBreath_Cold;Zone_DrakeBreath_Fire;Zone_DrakeBreath_Lightning;Zone_DrakeBreath_Poison"/>
+                    <attribute id="UUID" type="guid" value="ddddddd3-c41b-444a-83aa-9748e03e9e16"/>
+                </node>
+
+			</children>
+        </node>
+    </region>
+</save>
