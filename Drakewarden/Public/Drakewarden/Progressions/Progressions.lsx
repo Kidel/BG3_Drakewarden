@@ -42,7 +42,7 @@
                     <attribute id="Name" type="LSString" value="Drakewarden"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value=""/>
-                    <attribute id="Boosts" type="LSString" value="Proficiency(MartialWeapons)"/>
+                    <attribute id="Boosts" type="LSString" value=""/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(ddddddd1-c41b-444a-83aa-9748e03e9e16,DraconicGift,,,,,AlwaysPrepared);AddSpells(ddddddd2-c41b-444a-83aa-9748e03e9e16,DrakeCompanion,,,AlwaysPrepared)"/>
                     <attribute id="TableUUID" type="guid" value="dddddad5-31e0-41b6-aad9-41a55c2f8354"/>
                     <attribute id="UUID" type="guid" value="ddddd649-5ec9-4b73-8195-51c857928ed9"/>
