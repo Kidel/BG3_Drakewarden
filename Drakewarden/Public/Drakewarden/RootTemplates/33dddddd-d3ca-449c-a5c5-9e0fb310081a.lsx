@@ -16,7 +16,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Fly_DragonWings" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Fly_DragonWings_Drakewarden" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />

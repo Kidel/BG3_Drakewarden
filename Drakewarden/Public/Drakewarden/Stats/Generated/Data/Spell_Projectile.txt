@@ -69,3 +69,13 @@ data "MemoryCost" ""
 data "PrepareEffect" ""
 data "CastEffect" "5796c9bd-e0e8-4cd3-a2e2-e2e385860a44"
 data "Sheathing" "DontChange"
+
+
+
+
+
+new entry "Projectile_Fly_DragonWings_Drakewarden"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fly"
+data "SpellAnimation" "24ca7042-fcbd-45a2-86bc-cfbe9ebd1db0,,;47914f67-1915-4f42-bd42-68f565a25ec0,,;796476cb-cf16-47ba-b790-bfa5b4c0e863,,;c5df16cf-1248-4779-983b-ed679b8b09d7,,;b719b67b-a530-43a2-b9a4-95f56a681fc7,,;,,;,,;,,;,,"

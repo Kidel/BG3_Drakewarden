@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="11dddddd-d3ca-449c-a5c5-9e0fb310081a" />
-					<attribute id="Scale" type="float" value="0.15" />
+					<attribute id="Scale" type="float" value="0.10" />
 					<attribute id="Name" type="LSString" value="Drakewarden_Companion" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
@@ -56,7 +56,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Projectile_Fly_DragonWings" />
+									<attribute id="Skill" type="FixedString" value="Projectile_Fly_DragonWings_Drakewarden" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
