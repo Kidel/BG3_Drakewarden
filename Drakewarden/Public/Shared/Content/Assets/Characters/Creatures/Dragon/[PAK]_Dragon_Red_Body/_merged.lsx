@@ -7606,34 +7606,41 @@
 													<children>
 														<node id="Animation">
 															<children>
-															    <node id="Object"> <!--LOCOMOTION EDITS BELOW -->
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																<!-- LOCOMOTION EDITS BELOW -->
+															    <node id="Object"> 
+																	<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
 																	<attribute id="MapKey" type="FixedString" value="0532ad73-988e-4b70-bb96-434bb2532bad" /> LOCO moving peace
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
 																	<attribute id="MapKey" type="FixedString" value="821aed88-e17b-4b85-b37a-533f90fbba84" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="AlwaysIgnore" type="bool" value="True" />
+																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 																	<attribute id="MapKey" type="FixedString" value="cf3f0e09-1a9e-430d-8be2-7a4c0c8a875e" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="AlwaysIgnore" type="bool" value="True" />
+																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 																	<attribute id="MapKey" type="FixedString" value="6e1041c4-7e59-45c4-8ad9-e47480b95020" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="AlwaysIgnore" type="bool" value="True" />
+																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 																	<attribute id="MapKey" type="FixedString" value="83489e51-fe70-4855-b2be-9526a40ff4fd" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="AlwaysIgnore" type="bool" value="True" />
+																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 																	<attribute id="MapKey" type="FixedString" value="577bcf78-3d3d-4bc3-a064-fc59b2280153" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="AlwaysIgnore" type="bool" value="True" />
+																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
 																	<attribute id="MapKey" type="FixedString" value="4ae452d5-4a2e-471a-bc98-907c9ca6c523" />
-																</node> <!-- LOCOMOTION EDITS ABOVE -->
+																</node> 
+																<!-- LOCOMOTION EDITS ABOVE -->
 																<node id="Object">
 																	<attribute id="AlwaysIgnore" type="bool" value="True" />
 																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
@@ -7805,8 +7812,7 @@
 																	<attribute id="MapKey" type="FixedString" value="9cb533e9-dbc1-45d4-b5f9-3f2e30a3670f" />
 																</node>
 																<node id="Object">
-																	<attribute id="AlwaysIgnore" type="bool" value="True" />
-																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+																	<attribute id="ID" type="FixedString" value="ec0c265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="ab6fb758-3ff1-42c9-9716-3372d1701a95" />
 																</node>
 																<node id="Object">
@@ -9484,7 +9490,7 @@
 																	<attribute id="MapKey" type="FixedString" value="210d12d9-f79e-40ed-84c6-e77f4f584685" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="3199966a-e0b4-488f-a92a-948d89930737" />
+																	<attribute id="ID" type="FixedString" value="12e2aab3-804b-f2d0-6eaf-30fd9e40e4e2" />
 																	<attribute id="MapKey" type="FixedString" value="5c4cb3d6-2d3b-4f70-9ad5-d6ef58f658cf" />
 																</node>
 																<node id="Object">
@@ -10017,8 +10023,7 @@
 																	<attribute id="MapKey" type="FixedString" value="c6596d70-68b6-4174-8303-d7fa398d8f7a" />
 																</node>
 																<node id="Object">
-																	<attribute id="AlwaysIgnore" type="bool" value="True" />
-																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+																	<attribute id="ID" type="FixedString" value="ec0c265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="5658922f-15c5-4729-b736-ca4456228628" />
 																</node>
 																<node id="Object">
@@ -10363,8 +10368,7 @@
 																	<attribute id="MapKey" type="FixedString" value="06cff5ab-1705-403a-b20f-d5c9defbece5" />
 																</node>
 																<node id="Object">
-																	<attribute id="AlwaysIgnore" type="bool" value="True" />
-																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+																	<attribute id="ID" type="FixedString" value="ec0c265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="5cff24c4-99d7-4205-9187-21eada3d1614" />
 																</node>
 																<node id="Object">
@@ -10715,8 +10719,7 @@
 																	<attribute id="MapKey" type="FixedString" value="71400b2d-0be8-4e06-8c71-55fc5f4bedf0" />
 																</node>
 																<node id="Object">
-																	<attribute id="AlwaysIgnore" type="bool" value="True" />
-																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
+																	<attribute id="ID" type="FixedString" value="ec0c265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="00800f03-ef99-4b9f-8511-6440ca697356" />
 																</node>
 																<node id="Object">
@@ -10945,7 +10948,7 @@
 				<node id="Resource">
 					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
 					<attribute id="AnchorHand" type="uint8" value="0" />
-					<attribute id="Duration" type="float" value="0.4666667" />
+					<attribute id="Duration" type="float" value="0.666667" />
 					<attribute id="ID" type="FixedString" value="f33b659c-aa75-4157-0ec8-06960a1a7e5b" />
 					<attribute id="IsPoseBank" type="bool" value="False" />
 					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
@@ -10958,18 +10961,153 @@
 					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.GR2" />
 					<attribute id="SupportingLeg" type="uint8" value="0" />
 					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.Anim.0" />
-					<attribute id="TimeStep" type="float" value="0.004166667" />
+					<attribute id="TimeStep" type="float" value="0.04166667" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="Events">
 							<attribute id="ID" type="FixedString" value="VFX_StatusStart_01" />
-							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="Length" type="float" value="0.3" />
 							<attribute id="TextKeyType" type="uint8" value="0" />
 							<attribute id="Time" type="float" value="0" />
 							<attribute id="Track" type="uint8" value="0" />
 						</node>
 					</children>
 				</node>
+
+				<node id="Resource">
+					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+					<attribute id="AnchorHand" type="uint8" value="0" />
+					<attribute id="Duration" type="float" value="0.6" />
+					<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
+					<attribute id="IsPoseBank" type="bool" value="False" />
+					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+					<attribute id="Looping" type="bool" value="True" />
+					<attribute id="Name" type="LSString" value="DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover_Edit" />
+					<attribute id="Offset" type="float" value="0" />
+					<attribute id="PreviewVisualResource" type="FixedString" value="5fedc7f9-7e23-9510-8cb9-223f0746f52a" />
+					<attribute id="RightTransitionAnimation" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="1dda719d-2e4a-6425-026e-476f3c7133cf" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.GR2" />
+					<attribute id="SupportingLeg" type="uint8" value="0" />
+					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.Anim.0" />
+					<attribute id="TimeStep" type="float" value="0.4" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+					<attribute id="AnchorHand" type="uint8" value="0" />
+					<attribute id="Duration" type="float" value="0.8" />
+					<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+					<attribute id="IsPoseBank" type="bool" value="False" />
+					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01" />
+					<attribute id="Offset" type="float" value="0" />
+					<attribute id="PreviewVisualResource" type="FixedString" value="5fedc7f9-7e23-9510-8cb9-223f0746f52a" />
+					<attribute id="RightTransitionAnimation" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="1dda719d-2e4a-6425-026e-476f3c7133cf" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01.GR2" />
+					<attribute id="SupportingLeg" type="uint8" value="0" />
+					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01.Anim.0" />
+					<attribute id="TimeStep" type="float" value="0.004166667" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="0.08417235" />
+							<attribute id="Track" type="uint8" value="4" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="0.08417235" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="0.8126985" />
+							<attribute id="Track" type="uint8" value="4" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="0.8126985" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="1.50059" />
+							<attribute id="Track" type="uint8" value="4" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="1.50059" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+
+
 				<node id="Resource">
 					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
 					<attribute id="AnchorHand" type="uint8" value="0" />
