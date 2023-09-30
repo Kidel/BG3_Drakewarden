@@ -1,3 +1,5 @@
+// TODO lv15 Empowered Bite. The drake’s Bite attack deals an extra 1d6 damage of the type chosen for its Draconic Essence (for a total of 2d6 extra damage).
+
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_FIRE"
 type "StatusData"
 data "StatusType" "BOOST"

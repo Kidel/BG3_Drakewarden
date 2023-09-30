@@ -1,5 +1,2 @@
 // TODO
-// Drakewarden_BondOfFangAndScale_Passive
-// Drakewarden_PerfectedBond_Passive
-
-// InfusedStrikes_Passive (and boost)
+// fake passives for Bond of Fang and Scale, Perfected Bond, Drake's Breath ?
