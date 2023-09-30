@@ -23,35 +23,35 @@
         <node id="root">
             <children>
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SEM_"/>
+                    <attribute id="MapKey" type="FixedString" value="Summon_Drake_Companion_Skill"/>
                     <attribute id="U1" type="float" value="0.0"/> Left
                     <attribute id="U2" type="float" value="0.03125"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
                     <attribute id="V2" type="float" value="0.03125"/> Bottom
                 </node>			
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SEM_"/>
+                    <attribute id="MapKey" type="FixedString" value="BondOfFangsAndScale_Passive"/>
                     <attribute id="U1" type="float" value="0.03125"/> Left
                     <attribute id="U2" type="float" value="0.0625"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
                     <attribute id="V2" type="float" value="0.03125"/> Bottom
                 </node>							
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SEM_"/>
+                    <attribute id="MapKey" type="FixedString" value="Generic_Dragon_Breath_Skill"/>
                     <attribute id="U1" type="float" value="0.0625"/> Left
                     <attribute id="U2" type="float" value="0.09375"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
                     <attribute id="V2" type="float" value="0.03125"/> Bottom
                 </node>							
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SEM_"/>
+                    <attribute id="MapKey" type="FixedString" value="InfusedStrikes_Interrupt"/>
                     <attribute id="U1" type="float" value="0.09375"/> Left
                     <attribute id="U2" type="float" value="0.125"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top
                     <attribute id="V2" type="float" value="0.03125"/> Bottom
                 </node>				
                 <node id="IconUV">
-                    <attribute id="MapKey" type="FixedString" value="SEM_"/>
+                    <attribute id="MapKey" type="FixedString" value="ReflexiveResistance_Interrupt"/>
                     <attribute id="U1" type="float" value="0.125"/> Left
                     <attribute id="U2" type="float" value="0.15625"/> Right
                     <attribute id="V1" type="float" value="0.0"/> Top

@@ -10,7 +10,7 @@ data "SpellType" "Projectile"
 using "Projectile_Fireball_Dragon"
 data "DisplayName" "TODO;1"
 data "Description" "TODO;1"
-data "Icon" "TODO"
+data "Icon" "Generic_Dragon_Breath_Skill"
 data "ContainerSpells" "Projectile_Drakewarden_LightningBreath;Projectile_Drakewarden_FireBreath;Projectile_Drakewarden_ColdBreath;Projectile_Drakewarden_AcidBreath;Projectile_Drakewarden_PoisonBreath"
 data "SpellFlags" "IgnoreSilence;IsLinkedSpellContainer"
 
