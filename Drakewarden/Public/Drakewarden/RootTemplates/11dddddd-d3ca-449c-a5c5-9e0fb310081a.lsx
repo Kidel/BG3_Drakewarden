@@ -6,7 +6,7 @@
 			<children>
 				<node id="GameObjects"> original dragon is 08da5063-a761-475a-b66e-1356d7fcab40
 					<attribute id="MapKey" type="FixedString" value="11dddddd-d3ca-449c-a5c5-9e0fb310081a" />
-					<attribute id="Scale" type="float" value="0.3" />
+					<attribute id="Scale" type="float" value="0.2" />
 					<attribute id="Name" type="LSString" value="BM_WolfCompanion_Summon_CompanionsBond_sw" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
@@ -82,6 +82,90 @@
 										</node>
 									</children>
 								</node>
+						
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Projectile_LightningBreath_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+						
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Multiattack_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+					
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Target_Slam_Dragon_Skeletal" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
 							</children>
 						</node>
 							
@@ -104,50 +188,8 @@
 							</children>
 						</node>
 						<node id="OnDeathActions" />
-						<node id="FootStepInfos">
-							<children>
-								<node id="FootStepInfo">
-									<attribute id="Name" type="LSString" value="Footstep_Front_Left" />
-									<attribute id="FootPrintEffectName" type="LSString" value="" />
-									<attribute id="FootSmearEffectName" type="LSString" value="" />
-									<attribute id="FootSlideEffectName" type="LSString" value="" />
-									<attribute id="FootHearingEffectName" type="LSString" value="" />
-									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_01" />
-									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
-									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
-								</node>
-								<node id="FootStepInfo">
-									<attribute id="Name" type="LSString" value="Footstep_Front_Right" />
-									<attribute id="FootPrintEffectName" type="LSString" value="" />
-									<attribute id="FootSmearEffectName" type="LSString" value="" />
-									<attribute id="FootSlideEffectName" type="LSString" value="" />
-									<attribute id="FootHearingEffectName" type="LSString" value="" />
-									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_01" />
-									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
-									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
-								</node>
-								<node id="FootStepInfo">
-									<attribute id="Name" type="LSString" value="Footstep_Back_Left" />
-									<attribute id="FootPrintEffectName" type="LSString" value="" />
-									<attribute id="FootSmearEffectName" type="LSString" value="" />
-									<attribute id="FootSlideEffectName" type="LSString" value="" />
-									<attribute id="FootHearingEffectName" type="LSString" value="" />
-									<attribute id="FootBoneName" type="FixedString" value="Dummy_L_Foot_02" />
-									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
-									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
-								</node>
-								<node id="FootStepInfo">
-									<attribute id="Name" type="LSString" value="Footstep_Back_Right" />
-									<attribute id="FootPrintEffectName" type="LSString" value="" />
-									<attribute id="FootSmearEffectName" type="LSString" value="" />
-									<attribute id="FootSlideEffectName" type="LSString" value="" />
-									<attribute id="FootHearingEffectName" type="LSString" value="" />
-									<attribute id="FootBoneName" type="FixedString" value="Dummy_R_Foot_02" />
-									<attribute id="FootSoundEventName" type="FixedString" value="Movement_Footstep" />
-									<attribute id="FootScuffEventName" type="FixedString" value="Movement_Scuff" />
-								</node>
-							</children>
-						</node>
+						<node id="FootStepInfos" />
+							
 					</children>
 				</node>
 			</children>
