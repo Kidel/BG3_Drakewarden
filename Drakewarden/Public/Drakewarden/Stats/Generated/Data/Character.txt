@@ -38,6 +38,7 @@ data "Vitality" "60"
 data "Armor" "14"
 data "Strength" "16"
 data "Dexterity" "16"
+data "GameSize" "Large"
 
 new entry "Companion_Drakewarden_15"
 type "Character"
