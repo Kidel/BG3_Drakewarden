@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="0" build="16" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Generic tag for summons. Allows different treatements of crimes, similarly to the ANIMAL tag." />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="h18116268g0fc3g4732g87acg1906d2592035" version="0" />
+			<attribute id="DisplayName" type="TranslatedString" handle="h21add139g1d55g4840g9a7cgd851c95f2591" version="0" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="DRAKEWARDEN_SUMMON" />
+			<attribute id="UUID" type="guid" value="dddd8224-a4c1-43e4-43b9-e7751bfa41fa" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

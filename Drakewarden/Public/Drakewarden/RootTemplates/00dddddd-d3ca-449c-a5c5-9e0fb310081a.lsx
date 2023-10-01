@@ -4,7 +4,7 @@
 	<region id="Templates">
 		<node id="Templates">
 			<children>
-				<node id="GameObjects">
+				<node id="GameObjects"> TODO makes crow sounds. Fine for low level dragon
 					<attribute id="MapKey" type="FixedString" value="00dddddd-d3ca-449c-a5c5-9e0fb310081a" />
 					<attribute id="Scale" type="float" value="0.10" />
 					<attribute id="Name" type="LSString" value="Drakewarden_Companion" />
@@ -32,6 +32,9 @@
 							<children>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-43b9-e7751bfa41fa" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="dddd8224-a4c1-43e4-43b9-e7751bfa41fa" />
 								</node>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
