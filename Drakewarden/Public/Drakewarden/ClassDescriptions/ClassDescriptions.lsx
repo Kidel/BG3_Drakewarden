@@ -6,8 +6,8 @@
             <children>
                 <node id="ClassDescription">
                     <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
-                    <attribute id="Description" type="TranslatedString" handle="TODO" version="1"/>
-                    <attribute id="DisplayName" type="TranslatedString" handle="TODO" version="1"/>
+                    <attribute id="Description" type="TranslatedString" handle="h5483d543gba70g4efdga2a8g77432c51cdcb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha4bc6221ga255g47afg8b58g8e9a858c140a" version="1"/>
                     <attribute id="LearningStrategy" type="uint8" value="1"/>
                     <attribute id="Name" type="FixedString" value="Drakewarden"/>
                     <attribute id="ParentGuid" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>

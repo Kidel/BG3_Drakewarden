@@ -14,7 +14,7 @@
 					<attribute id="VisualTemplate" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="ddd20049-2ec2-07a7-b4d6-02a38b25d6ac" />
 					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
-					<attribute id="DisplayName" type="TranslatedString" handle="TODO" version="1" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h7de2c1c6g7290g421ag83fdg78025bfa5b29" version="1" />
 					<attribute id="Icon" type="FixedString" value="baa20049-2ec2-07a7-b4d6-02a38b25d6ac-_(Icon_Dragon)" />
 					<attribute id="Stats" type="FixedString" value="Companion_Drakewarden_3" /> 3
 					<attribute id="LevelOverride" type="int32" value="5" />

@@ -3,6 +3,41 @@
 	<content contentuid="h777777777777777777777777777777777777" version="1">Debug</content>
 	<content contentuid="h777777777777777777777777777777777778" version="1">Debug [1]</content>
 	
-	
+	<content contentuid="ha4bc6221ga255g47afg8b58g8e9a858c140a" version="1">Drakewarden</content>
+	<content contentuid="h5483d543gba70g4efdga2a8g77432c51cdcb" version="1">Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake.  As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic winged creature large and strong enough for you to ride.  Along the way, you gain an increasing share of the awe-inspiring power of dragons.</content>
 
+	<content contentuid="had7b4b18g7d08g4c6dg9adcg0e6fac39bc1c" version="1">Drake Companion</content>
+	<content contentuid="h7de2c1c6g7290g421ag83fdg78025bfa5b29" version="1">Drake</content>
+
+	<content contentuid="h0015dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Fire Draconic Essence</content>
+	<content contentuid="h0025dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Acid Draconic Essence</content>
+	<content contentuid="h0035dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Cold Draconic Essence</content>
+	<content contentuid="h0045dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Lightning Draconic Essence</content>
+	<content contentuid="h0055dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Poison Draconic Essence</content>
+
+	<content contentuid="haaa1d053gf5e1g400dg84a3g8913a1d9c4fb" version="1">You can magically summon the drake that is bound to you.  It appears in an unoccupied space of your choice within 30 feet of you.</content>
+
+	<content contentuid="hc972d04fg4701g4dd0g8c83g90664e81d53e" version="1">Melee Attack</content>
+	<content contentuid="hf27488d0g39bdg4705g995fge58ac0278c4e" version="1">A ferocious attack with claws and fangs.</content>
+
+	<content contentuid="h6929787fg0fa0g4df2ga84agf3722948325f" version="1">Infused Strikes</content>
+	<content contentuid="h23322a79g97beg4043g9503gf65b0bbabba2" version="1">When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.</content>
+	<content contentuid="h2a6ba290g2eb4g45e3gb961g87434769a44c" version="1">When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra [1].</content>
+
+	<content contentuid="hde939856g11f7g4b97g9b06gc3c5c6ea89da" version="1">Reflexive Resistance</content>
+	<content contentuid="hf4d0c22agdc60g481eg8e68gf8c60671116b" version="1">When either you or the drake takes damage while you're within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage.</content>
+	
+	<content contentuid="hb07adaf4gac4fg4385g89f6gb2bf2336ba4c" version="1">Drake's Breath</content>
+	<content contentuid="h099f33fdg557fg4582gbc8fg418b557bbca7" version="1">As an action, you can exhale a cone of damaging breath or cause your drake to exhale it.  Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking half damage on a successful save.</content>
+	<content contentuid="h199f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the blast area must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in this class.</content>
+	<content contentuid="h299f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in this class.</content>
+	<content contentuid="h2c405069g84f9g4167g9dbfgb6e619d61889" version="1">Each creature in the area must make a Dexterity saving throw against your spell save DC, taking half damage on a successful save. Increases to [1] at 15th level.</content>
+
+	<content contentuid="h05e41704g0501g40f1ga8c9gb7400102b458" version="1">Bond of Fang and Scale</content>
+	<content contentuid="h38955002gb265g4c15gbe7cgb107a7fa71b2" version="1">The bond you share with your drake intensifies, protecting you and stoking the drake's fury.  The drake's Bite attack deals an extra 1d6 damage of the type chosen for the drake's Draconic Essence.  You gain resistance to the damage type chosen for the drake's Draconic Essence.</content>
+	<content contentuid="h77955002gb265g4c15gbe7cgb107a7fa71b2" version="1">You gain resistance to the damage type chosen for the drake's Draconic Essence.</content>
+
+	<content contentuid="hbfce36b9g82acg4c21gbb05g5b9f78481836" version="1">Perfected Bond</content>
+	<content contentuid="h9390fd66g5cceg4fb8gbdecg23d530d61244" version="1">Your bond to your drake reaches the pinnacle of its power.  The drake's damage bonus is increased bu 1d6 (to a total of 2d6) and it grows larger.  You also gain Reflexive Resistance.</content>
+	
 </contentList>

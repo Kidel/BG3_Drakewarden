@@ -1,11 +1,7 @@
-// TODO 
-// Reflexive Resistance. When either you or the drake takes damage while you’re within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
-
-
 new entry "Interrupt_InfusedStrikes_Drakewarden_Fire"
 type "InterruptData"
-data "DisplayName" "TODO;1"
-data "Description" "TODO;1"
+data "DisplayName" "h6929787fg0fa0g4df2ga84agf3722948325f;1"
+data "Description" "h2a6ba290g2eb4g45e3gb961g87434769a44c;1"
 data "DescriptionParams" "DealDamage(1d6,Fire)"
 data "Icon" "InfusedStrikes_Interrupt"
 data "Cost" "ReactionActionPoint:1"
@@ -45,8 +41,8 @@ data "Properties" "DealDamage(1d6,Poison)"
 
 new entry "Interrupt_ReflexiveResistance_Drakewarden"
 type "InterruptData"
-data "DisplayName" "TODO;1"
-data "Description" "TODO;1"
+data "DisplayName" "hde939856g11f7g4b97g9b06gc3c5c6ea89da;1"
+data "Description" "hf4d0c22agdc60g481eg8e68gf8c60671116b;1"
 data "Icon" "ReflexiveResistance_Interrupt"
 data "InterruptContext" "OnPreDamage"
 data "InterruptContextScope" "Nearby"

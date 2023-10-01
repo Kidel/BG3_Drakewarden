@@ -4113,7 +4113,7 @@
 					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01.GR2" />
 					<attribute id="SupportingLeg" type="uint8" value="0" />
 					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01.Anim.0" />
-					<attribute id="TimeStep" type="float" value="0.004166667" />
+					<attribute id="TimeStep" type="float" value="0.01666667" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<!-- flap sound -->
