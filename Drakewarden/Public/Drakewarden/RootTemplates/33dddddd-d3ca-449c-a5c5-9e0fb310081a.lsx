@@ -6,11 +6,11 @@
 			<children>
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="33dddddd-d3ca-449c-a5c5-9e0fb310081a" />
-					<attribute id="Scale" type="float" value="0.4" />
+					<attribute id="Scale" type="float" value="0.25" />
 					<attribute id="Name" type="LSString" value="Drakewarden_Companion_11" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
-					<attribute id="ParentTemplateId" type="FixedString" value="9beee5c9-279e-49d8-a4a8-18f9ee0b1519" />
+					<attribute id="ParentTemplateId" type="FixedString" value="00dddddd-d3ca-449c-a5c5-9e0fb310081a" />
 					<attribute id="VisualTemplate" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="ddd20049-2ec2-07a7-b4d6-02a38b25d6ac" />
 					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
@@ -57,7 +57,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Slam_Dragon_Skeletal" />
+									<attribute id="Skill" type="FixedString" value="Target_Slam_Dragon_Drakewarden" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -113,7 +113,7 @@
 								</node>
 						
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Target_Fly_Dragon_Skeletal" />
+									<attribute id="Skill" type="FixedString" value="Target_Fly_Dragon_Drakewarden" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />
@@ -153,10 +153,7 @@
 								</node>
 							</children>
 						</node>
-						<node id="LocomotionParams">
-							<attribute id="IsMovementEnabled" type="bool" value="True" />
-							<attribute id="IsWorldClimbingEnabled" type="bool" value="False" />
-						</node>
+						
 						<node id="SpeakerGroupList">
 							<children>
 								<node id="SpeakerGroup">

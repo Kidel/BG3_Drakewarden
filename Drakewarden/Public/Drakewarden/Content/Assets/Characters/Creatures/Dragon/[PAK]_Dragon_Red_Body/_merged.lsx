@@ -4051,12 +4051,12 @@
 				<node id="Resource">
 					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
 					<attribute id="AnchorHand" type="uint8" value="0" />
-					<attribute id="Duration" type="float" value="0.666667" />
+					<attribute id="Duration" type="float" value="0.466667" />
 					<attribute id="ID" type="FixedString" value="dd34659c-aa75-4157-0ec8-06960a1a7e5b" />
 					<attribute id="IsPoseBank" type="bool" value="False" />
 					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover" />
+					<attribute id="Name" type="LSString" value="RED_DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover" />
 					<attribute id="Offset" type="float" value="0" />
 					<attribute id="PreviewVisualResource" type="FixedString" value="5fedc7f9-7e23-9510-8cb9-223f0746f52a" />
 					<attribute id="RightTransitionAnimation" type="FixedString" value="" />
@@ -4064,7 +4064,7 @@
 					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.GR2" />
 					<attribute id="SupportingLeg" type="uint8" value="0" />
 					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.Anim.0" />
-					<attribute id="TimeStep" type="float" value="0.04166667" />
+					<attribute id="TimeStep" type="float" value="0.004166667" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
 						<node id="Events">
@@ -4080,12 +4080,12 @@
 				<node id="Resource">
 					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
 					<attribute id="AnchorHand" type="uint8" value="0" />
-					<attribute id="Duration" type="float" value="0.6" />
+					<attribute id="Duration" type="float" value="0.4666667" />
 					<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
 					<attribute id="IsPoseBank" type="bool" value="False" />
 					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
 					<attribute id="Looping" type="bool" value="True" />
-					<attribute id="Name" type="LSString" value="DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover_Edit" />
+					<attribute id="Name" type="LSString" value="RED_DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover_Edit" />
 					<attribute id="Offset" type="float" value="0" />
 					<attribute id="PreviewVisualResource" type="FixedString" value="5fedc7f9-7e23-9510-8cb9-223f0746f52a" />
 					<attribute id="RightTransitionAnimation" type="FixedString" value="" />
@@ -4093,7 +4093,7 @@
 					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.GR2" />
 					<attribute id="SupportingLeg" type="uint8" value="0" />
 					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_CMBT_Skill_EnterFlightState_Local_01_Recover.Anim.0" />
-					<attribute id="TimeStep" type="float" value="0.4" />
+					<attribute id="TimeStep" type="float" value="0.004166667" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 				</node>
 
@@ -4105,7 +4105,7 @@
 					<attribute id="IsPoseBank" type="bool" value="False" />
 					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
 					<attribute id="Looping" type="bool" value="False" />
-					<attribute id="Name" type="LSString" value="DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01" />
+					<attribute id="Name" type="LSString" value="RED_DRAGON_Skeletal_Rig_DFLT_REAC_Magic_External_Flying_Combat_01" />
 					<attribute id="Offset" type="float" value="0" />
 					<attribute id="PreviewVisualResource" type="FixedString" value="5fedc7f9-7e23-9510-8cb9-223f0746f52a" />
 					<attribute id="RightTransitionAnimation" type="FixedString" value="" />
@@ -4116,9 +4116,8 @@
 					<attribute id="TimeStep" type="float" value="0.004166667" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
 					<children>
-
-					<!-- flap sound -->
-
+						<!-- flap sound -->
+						
 						<node id="Events">
 							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
 							<attribute id="Length" type="float" value="0.1" />
@@ -4245,7 +4244,6 @@
 						<node id="AnimationSetOverrides">
 							<attribute id="PairElement1" type="guid" value="2f05f704-1fbd-4b5a-2b9a-0bc973a83061" />
 							<attribute id="PairElement2" type="FixedString" value="d8005943-e797-933f-d538-ed9d8cee94c0" />
-							<attribute id="strAnimationSetOverrideType" type="int32" value="0" />
 						</node>
 						<node id="AnimationWaterfall">
 							<attribute id="Object" type="FixedString" value="dddd300d-58e7-ab8c-25c5-4446e93e144c" />
