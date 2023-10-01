@@ -6,6 +6,7 @@ data "DisplayName" "h777777777777777777777777777777777777;1"
 data "Boosts" "AttackSpellOverride(Target_Multiattack_Drakewarden, Target_UnarmedAttack);AttackSpellOverride(Target_Multiattack_Drakewarden, Target_MainHandAttack)"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_FIRE"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -17,6 +18,8 @@ data "Boosts" "Resistance(Fire, Immune);StatusImmunity(BURNING);IF(IsAttack()):D
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "FormatColor" "Fire"
+data "AuraRadius" "9"
+data "AuraStatuses" "IF(ClassLevelHigherOrEqualThan(7,'Ranger') and SummonOwner(context.Source,context.Target)):ApplyStatus(DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_FIRE)"
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_FIRE_5"
 type "StatusData"
@@ -30,6 +33,7 @@ data "StatusType" "BOOST"
 using "DRAKEWARDEN_DRACONIC_ESSENCE_FIRE"
 data "Boosts" "Resistance(Fire, Immune);StatusImmunity(BURNING);IF(IsAttack()):DamageBonus(2d6,Fire)"
 
+
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_LIGHTNING"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -41,6 +45,9 @@ data "Boosts" "Resistance(Lightning, Immune);IF(IsAttack()):DamageBonus(1d6,Ligh
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "FormatColor" "Lightning"
+data "AuraRadius" "9"
+data "AuraStatuses" "IF(ClassLevelHigherOrEqualThan(7,'Ranger') and SummonOwner(context.Source,context.Target)):ApplyStatus(DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_LIGHTNING)"
+
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_LIGHTNING_5"
 type "StatusData"
@@ -54,6 +61,7 @@ data "StatusType" "BOOST"
 using "DRAKEWARDEN_DRACONIC_ESSENCE_LIGHTNING"
 data "Boosts" "Resistance(Lightning, Immune);IF(IsAttack()):DamageBonus(2d6,Lightning)"
 
+
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_COLD"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -65,6 +73,8 @@ data "Boosts" "Resistance(Cold, Immune);IF(IsAttack()):DamageBonus(1d6,Cold)"
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "FormatColor" "Cold"
+data "AuraRadius" "9"
+data "AuraStatuses" "IF(ClassLevelHigherOrEqualThan(7,'Ranger') and SummonOwner(context.Source,context.Target)):ApplyStatus(DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_COLD)"
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_COLD_5"
 type "StatusData"
@@ -78,6 +88,7 @@ data "StatusType" "BOOST"
 using "DRAKEWARDEN_DRACONIC_ESSENCE_COLD"
 data "Boosts" "Resistance(Cold, Immune);IF(IsAttack()):DamageBonus(2d6,Cold)"
 
+
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_ACID"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -88,7 +99,9 @@ data "DescriptionParams" "Acid"
 data "Boosts" "Resistance(Acid, Immune);IF(IsAttack()):DamageBonus(1d6,Acid)"
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
-data "FormatColor" "Acid"
+data "FormatColor" "PoisonGreen"
+data "AuraRadius" "9"
+data "AuraStatuses" "IF(ClassLevelHigherOrEqualThan(7,'Ranger') and SummonOwner(context.Source,context.Target)):ApplyStatus(DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_ACID)"
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_ACID_5"
 type "StatusData"
@@ -102,6 +115,7 @@ data "StatusType" "BOOST"
 using "DRAKEWARDEN_DRACONIC_ESSENCE_ACID"
 data "Boosts" "Resistance(Acid, Immune);IF(IsAttack()):DamageBonus(2d6,Acid)"
 
+
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_POISON"
 type "StatusData"
 data "StatusType" "BOOST"
@@ -113,6 +127,8 @@ data "Boosts" "Resistance(Poison, Immune);StatusImmunity(SG_Poisoned);IF(IsAttac
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting;DisableCombatlog"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "FormatColor" "Poison"
+data "AuraRadius" "9"
+data "AuraStatuses" "IF(ClassLevelHigherOrEqualThan(7,'Ranger') and SummonOwner(context.Source,context.Target)):ApplyStatus(DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_POISON)"
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_POISON_5"
 type "StatusData"
@@ -138,6 +154,8 @@ data "Boosts" "UnlockInterrupt(Interrupt_InfusedStrikes_Drakewarden_Fire)"
 data "StatusPropertyFlags" "ApplyToDead;IgnoreResting"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "FormatColor" "Fire"
+data "Stack" "DRAKEWARDEN_BOND_OF_FANG_AND_SCALE"
+data "StackType" "Ignore"
 
 new entry "DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_LIGHTNING"
 type "StatusData"
@@ -164,7 +182,7 @@ using "DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_FIRE"
 data "Icon" "GenericIcon_DamageType_Acid"
 data "DescriptionParams" "Acid"
 data "Boosts" "UnlockInterrupt(Interrupt_InfusedStrikes_Drakewarden_Acid)"
-data "FormatColor" "Acid"
+data "FormatColor" "PoisonGreen"
 
 new entry "DRAKEWARDEN_BOND_OF_FANG_AND_SCALE_POISON"
 type "StatusData"
