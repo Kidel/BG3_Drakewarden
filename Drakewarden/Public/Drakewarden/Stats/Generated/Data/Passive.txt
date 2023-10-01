@@ -1,4 +1,24 @@
-// TODO
-// fake passives for Bond of Fang and Scale, Perfected Bond, Drake's Breath ?
-// Drakewarden_BondOfFangAndScale_Passive -> fake
-// Drakewarden_PerfectedBond_Passive -> needs to unlock Interrupt_ReflexiveResistance_Drakewarden
+new entry "Drakewarden_DrakesBreath_Passive"
+type "PassiveData"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;1"
+data "Icon" "Generic_Dragon_Breath_Passive"
+data "StatsFunctors" ""
+data "ToggleOffFunctors" ""
+data "ToggleOnFunctors" ""
+
+new entry "Drakewarden_BondOfFangAndScale_Passive"
+type "PassiveData"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;1"
+data "Icon" "BondOfFangsAndScale_Passive"
+data "StatsFunctors" ""
+data "ToggleOffFunctors" ""
+data "ToggleOnFunctors" ""
+
+new entry "Drakewarden_PerfectedBond_Passive"
+type "PassiveData"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;1"
+data "Icon" "Drakewarden_PerfectedBond_Passive"
+data "Boosts" "UnlockInterrupt(Interrupt_ReflexiveResistance_Drakewarden)"
