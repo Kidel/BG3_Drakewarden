@@ -19,7 +19,7 @@
 
                 <node id="SpellList">
                     <attribute id="Comment" type="LSString" value="Drake's Breath"/>
-                    <attribute id="Spells" type="LSString" value="Zone_DrakeBreath_Drakewarden"/>
+                    <attribute id="Spells" type="LSString" value="Zone_DrakeBreath_Drakewarden;Zone_DrakeBreath_Drakewarden_Slot"/>
                     <attribute id="UUID" type="guid" value="ddddddd3-c41b-444a-83aa-9748e03e9e16"/>
                 </node>
 

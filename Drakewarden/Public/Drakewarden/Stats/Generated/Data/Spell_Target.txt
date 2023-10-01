@@ -7,7 +7,6 @@ data "ContainerSpells" "Target_DrakeCompanion_Fire;Target_DrakeCompanion_Cold;Ta
 data "PrepareSound" "Spell_Prepare_ClericSummon_Gen"
 data "PrepareLoopSound" "Spell_Loop_ClericSummon_Gen"
 data "CastTextEvent" "VFX_Somatic_03"
-data "DamageType" "Force"
 data "CastSound" "Spell_Cast_Summon_FindFamiliar_L1to3"
 data "TargetSound" "Spell_Impact_Summon_FindFamiliar_L1to3"
 data "PrepareEffect" "ac0bce38-1b7c-4409-842a-0e556693c7fc"

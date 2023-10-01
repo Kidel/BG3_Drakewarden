@@ -7,13 +7,55 @@
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="11dddddd-d3ca-449c-a5c5-9e0fb310081a" />
 					<attribute id="Scale" type="float" value="0.16" />
-					<attribute id="Stats" type="FixedString" value="Companion_Drakewarden_5" />
-					<attribute id="LevelOverride" type="int32" value="5" />
-					<attribute id="Name" type="LSString" value="Drakewarden_Companion_2" />
-					<attribute id="ParentTemplateId" type="FixedString" value="00dddddd-d3ca-449c-a5c5-9e0fb310081a" />
+					<attribute id="Name" type="LSString" value="Drakewarden_Companion_5" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="ParentTemplateId" type="FixedString" value="9beee5c9-279e-49d8-a4a8-18f9ee0b1519" />
 					<attribute id="VisualTemplate" type="FixedString" value="3773c64c-c5a9-9baf-1b85-6bee029ee044" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="ddd20049-2ec2-07a7-b4d6-02a38b25d6ac" />
+					<attribute id="DeathEffect" type="guid" value="eb0aa43b-fcdc-4ef2-548c-0ef60775834e" />
+					<attribute id="DisplayName" type="TranslatedString" handle="TODO" version="1" />
+					<attribute id="Icon" type="FixedString" value="baa20049-2ec2-07a7-b4d6-02a38b25d6ac-_(Icon_Dragon)" />
+					<attribute id="Stats" type="FixedString" value="Companion_Drakewarden_3" /> 3
+					<attribute id="LevelOverride" type="int32" value="5" />
+					<attribute id="SpellSet" type="FixedString" value="DrakewardenCompanionSummonActions" />
+					<attribute id="Archetype" type="FixedString" value="melee" />
+					<attribute id="Race" type="guid" value="eed2c9e5-d1b4-4010-c499-960e9893a067" />
+					<attribute id="BloodType" type="FixedString" value="Red" />
+					<attribute id="ExplodedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
+					<attribute id="DisintegratedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
+					<attribute id="LightID" type="FixedString" value="782d9d58-f4c5-4500-a16e-b81d737bcc53" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="" />
+					<attribute id="FoleyLongResourceID" type="FixedString" value="5b0220fb-ca10-d1ee-ea3e-1fd588b6a15d" />
 					<children>
+						<node id="Tags">
+							<children>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="26c78224-a4c1-43e4-43b9-e7751bfa41fa" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="90101158-141e-4896-608e-dbf8f603e3dd" />
+								</node>
+								<node id="Tag">
+									<attribute id="Object" type="guid" value="801bd716-0666-4dd5-49b4-ff45a5a90f2a" />
+								</node>
+							</children>
+						</node>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285524 -7.787262" />
+									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
+									<attribute id="Radius" type="float" value="4.0214" />
+									<attribute id="Height" type="float" value="5.397603" />
+								</node>
+							</children>
+						</node>
+						
+						<node id="SkillList"/>
+														
 						<node id="StatusList">
 							<children>
 								<node id="Status">

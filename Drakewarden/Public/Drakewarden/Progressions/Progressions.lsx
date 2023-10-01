@@ -62,7 +62,6 @@
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="PassivesAdded" type="LSString" value="Drakewarden_DrakesBreath_Passive"/>
                     <attribute id="Selectors" type="LSString" value="AddSpells(ddddddd3-c41b-444a-83aa-9748e03e9e16,DrakesBreath,,,,,AlwaysPrepared)"/>
-                    <attribute id="PassivesAdded" type="LSString" value=""/>
                     <attribute id="TableUUID" type="guid" value="dddddad5-31e0-41b6-aad9-41a55c2f8354"/>
                     <attribute id="UUID" type="guid" value="ddddf649-5ec9-4b73-8195-51c857928ed9"/>
                 </node>
