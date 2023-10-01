@@ -1,0 +1,5 @@
+new spellset "DrakewardenCompanionSummonActions"
+add spell "Shout_Dash_NPC"
+add spell "Shout_Disengage"
+add spell "Target_Multiattack_Drakewarden"
+add spell "Projectile_Fly_DragonWings_Drakewarden"
