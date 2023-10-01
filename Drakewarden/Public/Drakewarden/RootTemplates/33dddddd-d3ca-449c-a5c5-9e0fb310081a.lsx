@@ -25,8 +25,24 @@
 					<attribute id="ExplodedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
 					<attribute id="DisintegratedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
 					<attribute id="LightID" type="FixedString" value="782d9d58-f4c5-4500-a16e-b81d737bcc53" />
-					<attribute id="FoleyMediumResourceID" type="FixedString" value="ee60c993-282a-2782-26b0-faf2f90dd4fc" />
-					<attribute id="FoleyLongResourceID" type="FixedString" value="5b0220fb-ca10-d1ee-ea3e-1fd588b6a15d" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="783c4d60-f8c4-4458-a8e7-4d9e543b662e" />
+					<attribute id="FoleyLongResourceID" type="FixedString" value="dee29f04-ffe7-41d3-aced-8df6d9716b7f" />
+					<attribute id="VocalAttackResourceID" type="FixedString" value="5a24b61f-72ce-402b-a3f3-fb80ff4660a7" />
+					<attribute id="VocalDeathResourceID" type="FixedString" value="30eaab12-50a3-4121-8426-0e5426758e58" />
+					<attribute id="VocalDodgeResourceID" type="FixedString" value="ec02ed81-06fa-47f1-bf3e-b1e4e260f58d" />
+					<attribute id="VocalPainResourceID" type="FixedString" value="f751e0ca-4631-4c92-8a1f-142e32496693" />
+					<attribute id="VocalAnticipationResourceID" type="FixedString" value="51035a46-0cec-4e53-984b-88608d862f17" />
+					<attribute id="VocalFallResourceID" type="FixedString" value="cb5019e6-8e31-4103-9c52-706a8535806d" />
+					<attribute id="VocalShoutResourceID" type="FixedString" value="feca42d7-ebf9-4eef-aa2d-413b037d8277" />
+					<attribute id="VocalAlertResourceID" type="FixedString" value="0963efd0-aff2-4203-8077-33a20a866cf9" />
+					<attribute id="VocalAngryResourceID" type="FixedString" value="898b9dea-2612-4751-8357-026b5e942ed6" />
+					<attribute id="VocalAwakeResourceID" type="FixedString" value="de440809-e409-4297-8ddc-57257ee547f0" />
+					<attribute id="VocalBoredResourceID" type="FixedString" value="c404ff5b-17e7-4252-91d8-184868cfe50b" />
+					<attribute id="VocalSnoreResourceID" type="FixedString" value="174b5cab-4391-4733-811d-da1630c8b85c" />
+					<attribute id="VocalExhaustedResourceID" type="FixedString" value="33b1f4ec-979f-4593-834d-e8b3c59aab48" />
+					<attribute id="VocalEffortsResourceID" type="FixedString" value="6701beed-18dd-4c74-896f-282c8f6887d9" />
+					<attribute id="VocalWeakResourceID" type="FixedString" value="cb5019e6-8e31-4103-9c52-706a8535806d" />
+					<attribute id="VocalBuffResourceID" type="FixedString" value="de440809-e409-4297-8ddc-57257ee547f0" />
 					<children>
 						<node id="Tags">
 							<children>
