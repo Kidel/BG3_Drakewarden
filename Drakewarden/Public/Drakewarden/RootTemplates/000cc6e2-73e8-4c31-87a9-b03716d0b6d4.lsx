@@ -12,7 +12,7 @@
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
 					<attribute id="Icon" type="FixedString" value="Portrait_GaseousForm" />
-					<attribute id="Stats" type="FixedString" value="GaseousForm" />
+					<attribute id="Stats" type="FixedString" value="DrakeCheese" />
 					<attribute id="SoundMovementStartEvent" type="FixedString" value="f0dc2a50-8689-c8c1-472e-cbb1e22587da" />
 					<attribute id="SoundMovementStopEvent" type="FixedString" value="14f80195-3efc-1351-bde9-57aeba79a926" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="faf634a8-6834-0bfe-9c32-026ad0a63646" />

@@ -33,6 +33,8 @@ Ext.Osiris.RegisterListener("TimerFinished", 1, "after", function (timerName)
     if timerName == "LykonPolymorphHack" then
         Ext.Dump(Osi.DB_PlayerSummons:Get(nil))
         SummonPolymorphHackWorkaround()
-        print("Polymorph hack workaround applied.")
+        print("Polymorph hack workaround applied. Use !drakefix to apply again.")
     end
 end)
+
+Ext.Require("InitCompatibilityFramework.lua")

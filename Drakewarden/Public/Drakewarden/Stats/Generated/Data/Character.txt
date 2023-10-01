@@ -54,3 +54,9 @@ data "Dexterity" "18"
 data "GameSize" "Large"
 data "Weight" "120"
 
+new entry "DrakeCheese"
+type "Character"
+using "Companion_Drakewarden_3"
+data "Vitality" "1"
+data "Armor" "14"
+
