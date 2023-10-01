@@ -1,4 +1,4 @@
 // TODO
 // fake passives for Bond of Fang and Scale, Perfected Bond, Drake's Breath ?
-// Drakewarden_BondOfFangAndScale_Passive
-// Drakewarden_PerfectedBond_Passive
+// Drakewarden_BondOfFangAndScale_Passive -> fake
+// Drakewarden_PerfectedBond_Passive -> needs to unlock Interrupt_ReflexiveResistance_Drakewarden

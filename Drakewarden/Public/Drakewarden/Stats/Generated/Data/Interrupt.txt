@@ -1,6 +1,59 @@
 // TODO 
-// various Infused Strikes. When another creature within 30 feet of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.
-// interrupts should be unlocked by the Draconic Essence boosts
-
-// TODO 
 // Reflexive Resistance. When either you or the drake takes damage while you’re within 30 feet of each other, you can use your reaction to give yourself or the drake resistance to that instance of damage. You can use this reaction a number of times equal to your proficiency bonus, and you regain all expended uses when you finish a long rest.
+
+
+new entry "Interrupt_InfusedStrikes_Drakewarden_Fire"
+type "InterruptData"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;1"
+data "DescriptionParams" "DealDamage(1d6,Fire)"
+data "Icon" "InfusedStrikes_Interrupt"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptContext" "OnCastHit"
+data "InterruptContextScope" "Self"
+data "Container" "YesNoDecision"
+data "Conditions" "Self(context.Source,context.Observer) and IsWeaponAttack() and IsHit() and Character() and not AnyEntityIsItem()"
+data "Properties" "DealDamage(1d6,Fire)"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "(not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER'))"
+data "EnableContext" "OnActionResourcesChanged"
+
+new entry "Interrupt_InfusedStrikes_Drakewarden_Lightning"
+type "InterruptData"
+using "Interrupt_InfusedStrikes_Drakewarden_Fire"
+data "DescriptionParams" "DealDamage(1d6,Lightning)"
+data "Properties" "DealDamage(1d6,Lightning)"
+
+new entry "Interrupt_InfusedStrikes_Drakewarden_Cold"
+type "InterruptData"
+using "Interrupt_InfusedStrikes_Drakewarden_Fire"
+data "DescriptionParams" "DealDamage(1d6,Cold)"
+data "Properties" "DealDamage(1d6,Cold)"
+
+new entry "Interrupt_InfusedStrikes_Drakewarden_Acid"
+type "InterruptData"
+using "Interrupt_InfusedStrikes_Drakewarden_Fire"
+data "DescriptionParams" "DealDamage(1d6,Acid)"
+data "Properties" "DealDamage(1d6,Acid)"
+
+new entry "Interrupt_InfusedStrikes_Drakewarden_Poison"
+type "InterruptData"
+using "Interrupt_InfusedStrikes_Drakewarden_Fire"
+data "DescriptionParams" "DealDamage(1d6,Poison)"
+data "Properties" "DealDamage(1d6,Poison)"
+
+
+new entry "Interrupt_ReflexiveResistance_Drakewarden"
+type "InterruptData"
+data "DisplayName" "TODO;1"
+data "Description" "TODO;1"
+data "Icon" "ReflexiveResistance_Interrupt"
+data "InterruptContext" "OnPreDamage"
+data "InterruptContextScope" "Nearby"
+data "Container" "YesNoDecision"
+data "Conditions" "IsAbleToReact(context.Observer) and (Self(context.Target,context.Observer) or Ally(context.Target,context.Observer)) and DampenElementsCheck(context.HitDescription.MainDamageType, context.Target) and not AnyEntityIsItem()"
+data "Properties" "SetDamageResistance(Acid);SetDamageResistance(Cold);SetDamageResistance(Fire);SetDamageResistance(Lightning);SetDamageResistance(Thunder);SetDamageResistance(Necrotic);SetDamageResistance(Radiant);SetDamageResistance(Force);SetDamageResistance(Psychic);SetDamageResistance(Poison);SetDamageResistance(Piercing);SetDamageResistance(Slashing);SetDamageResistance(Bludgeoning);SetDamageResistance(Necrotic);ApplyStatus(OBSERVER_TARGET,INTERRUPT_DAMPEN_ELEMENTS,100,0);IF(not Self(context.Target,context.Observer)):UseSpell(OBSERVER_TARGET,Target_DampenElements_Interrupt,true,true,true)"
+data "Cost" "ReactionActionPoint:1"
+data "InterruptDefaultValue" "Ask;Enabled"
+data "EnableCondition" "not HasStatus('SG_Polymorph') or Tagged('MINDFLAYER')"
+data "EnableContext" "OnStatusApplied"
