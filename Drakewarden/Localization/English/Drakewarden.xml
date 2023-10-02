@@ -17,6 +17,8 @@
 	<content contentuid="h0045dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Lightning Draconic Essence</content>
 	<content contentuid="h0055dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Poison Draconic Essence</content>
 
+	<content contentuid="h00a5dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Deal additional [1] damage.</content>
+
 	<content contentuid="haaa1d053gf5e1g400dg84a3g8913a1d9c4fb" version="1">You can magically summon the drake that is bound to you.  It appears in an unoccupied space of your choice within 30 feet of you.</content>
 
 	<content contentuid="hc972d04fg4701g4dd0g8c83g90664e81d53e" version="1">Melee Attack</content>
@@ -31,9 +33,9 @@
 	
 	<content contentuid="hb07adaf4gac4fg4385g89f6gb2bf2336ba4c" version="1">Drake's Breath</content>
 	<content contentuid="h099f33fdg557fg4582gbc8fg418b557bbca7" version="1">As an action, you can exhale a cone of damaging breath or cause your drake to exhale it.  Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking half damage on a successful save.</content>
-	<content contentuid="h199f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the blast area must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in this class.</content>
-	<content contentuid="h299f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in this class.</content>
-	<content contentuid="h2c405069g84f9g4167g9dbfgb6e619d61889" version="1">Each creature in the area must make a Dexterity saving throw against your spell save DC, taking half damage on a successful save. Increases to [1] at 15th level.</content>
+	<content contentuid="h199f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the blast area must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in Drakewarden.</content>
+	<content contentuid="h299f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence).  Each creature in the cone must make a Dexterity saving throw against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in Drakewarden.</content>
+	<content contentuid="h2c405069g84f9g4167g9dbfgb6e619d61889" version="1">Each creature in the area must make a Dexterity saving throw against your spell save DC, taking half damage on a successful save. Increases to [1] at 15th level in Drakewarden.</content>
 
 	<content contentuid="h05e41704g0501g40f1ga8c9gb7400102b458" version="1">Bond of Fang and Scale</content>
 	<content contentuid="h38955002gb265g4c15gbe7cgb107a7fa71b2" version="1">The bond you share with your drake intensifies, protecting you and stoking the drake's fury.  The drake's Bite attack deals an extra 1d6 damage of the type chosen for the drake's Draconic Essence.  You gain resistance to the damage type chosen for the drake's Draconic Essence.</content>
