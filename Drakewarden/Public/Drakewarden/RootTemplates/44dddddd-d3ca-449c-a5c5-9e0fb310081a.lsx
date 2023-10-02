@@ -43,6 +43,9 @@
 					<attribute id="VocalEffortsResourceID" type="FixedString" value="6701beed-18dd-4c74-896f-282c8f6887d9" />
 					<attribute id="VocalWeakResourceID" type="FixedString" value="cb5019e6-8e31-4103-9c52-706a8535806d" />
 					<attribute id="VocalBuffResourceID" type="FixedString" value="de440809-e409-4297-8ddc-57257ee547f0" />
+					<attribute id="VocalRelaxedResourceID" type="FixedString" value="" />
+					<attribute id="VocalInitiativeResourceID" type="FixedString" value="" />
+					<attribute id="VocalVictoryResourceID" type="FixedString" value="" />
 					<children>
 						<node id="Tags">
 							<children>
