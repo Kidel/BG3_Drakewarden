@@ -42,4 +42,19 @@
 	<content contentuid="hbfce36b9g82acg4c21gbb05g5b9f78481836" version="1">Perfected Bond</content>
 	<content contentuid="h9390fd66g5cceg4fb8gbdecg23d530d61244" version="1">Your bond to your drake reaches the pinnacle of its power.  The drake's damage bonus is increased bu 1d6 (to a total of 2d6) and it grows larger.  You also gain Reflexive Resistance.</content>
 	
+	<content contentuid="h007b4b18g7d08g4c6dg9adcg0e6fac39bc1c" version="1">Drake Familiar</content>
+
+	<content contentuid="h00006c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Gift: Familiar</content>
+	<content contentuid="h00016c4bg4507g445agb12cg69c938d7eaca" version="1">You gain the aid of a draconic familiar, which might be a splinter of the consciousness of a dragon that invested you with power.</content>
+
+	<content contentuid="h00026c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Gift: Rebirth</content>
+	<content contentuid="h00036c4bg4507g445agb12cg69c938d7eaca" version="1">You gain the power to become a Dragonborn.</content>
+
+	<content contentuid="h00046c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Gift: Frightful Presence</content>
+	<content contentuid="h00056c4bg4507g445agb12cg69c938d7eaca" version="1">Echoes of a dragon's might linger around you, and you can call on them to inspire fear in those who stand against you.</content>
+
+	<content contentuid="h00066c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Rebirth</content>
+	<content contentuid="h00076c4bg4507g445agb12cg69c938d7eaca" version="1">Become a masculine [1] Dragonborn.</content>
+	<content contentuid="h00086c4bg4507g445agb12cg69c938d7eaca" version="1">Become a feminine [1] Dragonborn.</content>
+
 </contentList>

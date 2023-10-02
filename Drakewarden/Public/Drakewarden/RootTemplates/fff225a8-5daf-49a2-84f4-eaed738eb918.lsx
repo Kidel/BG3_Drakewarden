@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="8" build="402" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				<node id="GameObjects">
+					<attribute id="MapKey" type="FixedString" value="fff225a8-5daf-49a2-84f4-eaed738eb918" />
+					<attribute id="Name" type="LSString" value="DragonGiftStone_DraconicFamiliar" />
+					<attribute id="LevelName" type="FixedString" value="" />
+					<attribute id="Type" type="FixedString" value="item" />
+					<attribute id="ParentTemplateId" type="FixedString" value="1ac45157-d063-4314-8832-c50062a885dd" />
+					<attribute id="ReadinessFlags" type="uint32" value="128" />
+					<attribute id="VisualTemplate" type="FixedString" value="20863438-d709-f88d-db49-50a26e4f6b39" />
+					<attribute id="Icon" type="FixedString" value="Item_BLD_Lathander_Platform_A_Crystal_A" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="a89e6faf-7c71-8ec4-7df5-23a739f455db" />
+					<attribute id="DisplayName" type="TranslatedString" handle="h00006c4bg4507g445agb12cg69c938d7eaca" version="1" />
+					<attribute id="Stats" type="FixedString" value="DragonGiftStone_DraconicFamiliar" />
+					<attribute id="Description" type="TranslatedString" handle="h00016c4bg4507g445agb12cg69c938d7eaca" version="1" />
+					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2753707 0.001044631 -0.4160153" />
+									<attribute id="Max" type="fvec3" value="0.2753707 0.6624097 0.08334029" />
+									<attribute id="Radius" type="float" value="0.2487564" />
+									<attribute id="Height" type="float" value="0.6613651" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.2753707 0.001044631 -0.4160153" />
+									<attribute id="Max" type="fvec3" value="0.2753707 0.6624097 0.08334029" />
+									<attribute id="Radius" type="float" value="0.2487564" />
+									<attribute id="Height" type="float" value="0.6613651" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="1" />
+									<attribute id="Min" type="fvec3" value="-0.1376854 0.001044631 -0.2080076" />
+									<attribute id="Max" type="fvec3" value="0.1376854 0.6624097 0.04167014" />
+									<attribute id="Radius" type="float" value="0.1243782" />
+									<attribute id="Height" type="float" value="0.6613651" />
+								</node>
+							</children>
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

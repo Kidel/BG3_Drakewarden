@@ -1,0 +1,35 @@
+new treasuretable "LOW_MurderTribunal_Merchant"
+CanMerge 1
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicFamiliar",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicRebirth",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_FrightfulPresence",1,0,0,0,0,0,0,0
+
+new treasuretable "WYR_OrinsImpersonation_Smith"
+CanMerge 1
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicFamiliar",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicRebirth",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_FrightfulPresence",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_SocietyOfBrilliance_Hobgoblin"
+CanMerge 1
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicFamiliar",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicRebirth",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_FrightfulPresence",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_HarperQuarterMaster_Magic_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicFamiliar",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_DraconicRebirth",1,0,0,0,0,0,0,0
+new subtable "1,1"
+object category "I_DragonGiftStone_FrightfulPresence",1,0,0,0,0,0,0,0

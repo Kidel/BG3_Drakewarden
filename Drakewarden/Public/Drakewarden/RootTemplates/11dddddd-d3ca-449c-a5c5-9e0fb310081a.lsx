@@ -25,7 +25,7 @@
 					<attribute id="ExplodedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
 					<attribute id="DisintegratedResourceID" type="FixedString" value="ab98118f-36e4-8a5f-2e91-925e1c9934c2" />
 					<attribute id="LightID" type="FixedString" value="782d9d58-f4c5-4500-a16e-b81d737bcc53" />
-					<attribute id="FoleyMediumResourceID" type="FixedString" value="5fb66978-5a0b-eaea-b824-0a5e1141f4cc" />
+					<attribute id="FoleyMediumResourceID" type="FixedString" value="fd6409fb-e831-63bf-5ae3-d9f1cb235b0a" />
 					<attribute id="FoleyLongResourceID" type="FixedString" value="ae7de912-94bb-ed75-9cd4-8dfec432f26b" />
 					<children>
 						<node id="Tags">
