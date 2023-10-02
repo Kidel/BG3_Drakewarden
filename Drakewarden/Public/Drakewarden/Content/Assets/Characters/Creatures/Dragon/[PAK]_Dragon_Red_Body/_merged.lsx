@@ -65,6 +65,40 @@
 																	<attribute id="MapKey" type="FixedString" value="066f8e0e-b3e1-4b76-a473-d1e23a3b7230" />
 																</node>
 																<!-- FLY EDITS ABOVE -->
+																<!-- LADDER EDITS BELOW -->
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="MapKey" type="FixedString" value="3c246fb9-66c9-48ab-b2e8-a04388bd29ac" /> <!-- ladder down loop -->
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="MapKey" type="FixedString" value="9dbd99a1-8930-4bab-a467-36ae0caa92e2" /> <!-- ladder down loop -->
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="MapKey" type="FixedString" value="ff38dc8d-0070-4322-b274-8a70f24dead2" /> <!-- ladder down start -->
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="MapKey" type="FixedString" value="50feb93f-1163-4db8-b170-fa31834de3eb" />
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" /> 
+																	<attribute id="MapKey" type="FixedString" value="a7323180-3349-4387-81f6-6eaac3f2a86f" /> <!-- Ladder up loop -->
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="MapKey" type="FixedString" value="ac9edf7f-6ec2-4445-b451-2f4c09b105d4" /> <!-- Ladder up loop -->
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="MapKey" type="FixedString" value="9f133b27-bd3b-48de-92b0-1f209f7c40d0" /> <!-- ladder up start -->
+																</node>
+																<node id="Object">
+																	<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
+																	<attribute id="MapKey" type="FixedString" value="c1f8cbf1-c92d-42d2-968c-5a53ff5779fd" /> <!-- ladder up start -->
+																</node>
+																<!-- LADDER EDITS ABOVE -->
 																<node id="Object">
 																	<attribute id="AlwaysIgnore" type="bool" value="True" />
 																	<attribute id="ID" type="FixedString" value="00000000-0000-0000-0000-000000000000" />
