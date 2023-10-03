@@ -81,7 +81,7 @@
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
-									<attribute id="Skill" type="FixedString" value="Shout_GaseousForm_Dismiss" />
+									<attribute id="Skill" type="FixedString" value="Shout_Dismiss_Self" />
 									<attribute id="SpellCastingAbility" type="uint8" value="0" />
 									<attribute id="LearningStrategy" type="uint8" value="0" />
 									<attribute id="ScoreModifier" type="float" value="1" />

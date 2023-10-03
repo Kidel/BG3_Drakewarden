@@ -62,5 +62,9 @@
 	<content contentuid="h12345c4bg4507g445agb12cg69c938d7eaca" version="1">Ignis Fatuus</content>
 	<content contentuid="h22345c4bg4507g445agb12cg69c938d7eaca" version="1">Dismiss Ignis Fatuus</content>
 	<content contentuid="h67890c4bg4507g445agb12cg69c938d7eaca" version="1">Become a will-o'-wisp to better traverse terrain. Emits light.</content>
-	<content contentuid="h77890c4bg4507g445agb12cg69c938d7eaca" version="2">Dismiss your will-o'-wisp shape and turn back into your original form.</content>
+	<content contentuid="h77890c4bg4507g445agb12cg69c938d7eaca" version="1">Dismiss your will-o'-wisp shape and turn back into your original form.</content>
+
+	<content contentuid="h01010c4bg4507g445agb12cg69c938d7eaca" version="1">Hover</content>
+	<content contentuid="h11010c4bg4507g445agb12cg69c938d7eaca" version="1">Why touch the ground when you have wings?</content>
+
 </contentList>

@@ -6,6 +6,16 @@ data "DisplayName" "h777777777777777777777777777777777777;1"
 data "Boosts" "AttackSpellOverride(Target_Multiattack_Drakewarden, Target_UnarmedAttack);AttackSpellOverride(Target_Multiattack_Drakewarden, Target_MainHandAttack)"
 data "StatusPropertyFlags" "IgnoreResting;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
 
+new entry "DRAKE_LEVITATE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "h01010c4bg4507g445agb12cg69c938d7eaca;1"
+data "Description" "h11010c4bg4507g445agb12cg69c938d7eaca;1"
+data "Icon" "Action_ContactMizora"
+data "StackId" "LEVITATE"
+data "StatusGroups" "SG_RemoveOnRespec"
+data "DynamicAnimationTag" "2f05f704-1fbd-4b5a-9a2b-c90ba8736130"
+
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_FIRE"
 type "StatusData"
@@ -203,6 +213,7 @@ data "StackId" "UNSUMMONABLE"
 data "TickType" "StartTurn"
 data "Boosts" "UnlockSpell(Shout_Dismiss_Self);Tag(SUMMON)"
 data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;IgnoreResting"
+data "Passives" "Drake_Flight_Mode_Drakewarden_Toggle;Drake_WillOWisp_Toggle"
 
 
 

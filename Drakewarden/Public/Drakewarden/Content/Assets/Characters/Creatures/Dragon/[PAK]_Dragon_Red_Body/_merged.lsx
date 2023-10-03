@@ -27,10 +27,10 @@
 																<!-- LOCOMOTION EDITS BELOW -->
 															    <node id="Object"> 
 																	<attribute id="ID" type="FixedString" value="dddd659c-aa75-4157-0ec8-06960a1a7e5b" />
-																	<attribute id="MapKey" type="FixedString" value="0532ad73-988e-4b70-bb96-434bb2532bad" /> LOCO moving peace
+																	<attribute id="MapKey" type="FixedString" value="0532ad73-988e-4b70-bb96-434bb2532bad" /> prepare
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" /> loop
 																	<attribute id="MapKey" type="FixedString" value="821aed88-e17b-4b85-b37a-533f90fbba84" />
 																</node>
 
@@ -57,7 +57,7 @@
 																<!-- LOCOMOTION EDITS ABOVE -->
 																<!-- FLY EDITS BELOW -->
 																<node id="Object"> loop
-																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="ID" type="FixedString" value="dddc265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="e22702f5-04d5-41a1-97ac-9b9f6b317d98" />
 																</node>
 																<node id="Object"> prepare
@@ -67,11 +67,11 @@
 																<!-- FLY EDITS ABOVE -->
 																<!-- LADDER EDITS BELOW -->
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="ID" type="FixedString" value="dddc265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="3c246fb9-66c9-48ab-b2e8-a04388bd29ac" /> <!-- ladder down loop -->
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="ID" type="FixedString" value="dddc265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="9dbd99a1-8930-4bab-a467-36ae0caa92e2" /> <!-- ladder down loop -->
 																</node>
 																<node id="Object">
@@ -83,11 +83,11 @@
 																	<attribute id="MapKey" type="FixedString" value="50feb93f-1163-4db8-b170-fa31834de3eb" />
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" /> 
+																	<attribute id="ID" type="FixedString" value="dddc265a-5168-8cec-57d4-6313cfe6c71a" /> 
 																	<attribute id="MapKey" type="FixedString" value="a7323180-3349-4387-81f6-6eaac3f2a86f" /> <!-- Ladder up loop -->
 																</node>
 																<node id="Object">
-																	<attribute id="ID" type="FixedString" value="dddd8af0-c541-58d5-84f5-41cbfebe0aae" />
+																	<attribute id="ID" type="FixedString" value="dddc265a-5168-8cec-57d4-6313cfe6c71a" />
 																	<attribute id="MapKey" type="FixedString" value="ac9edf7f-6ec2-4445-b451-2f4c09b105d4" /> <!-- Ladder up loop -->
 																</node>
 																<node id="Object">
@@ -4260,7 +4260,153 @@
 						</node>
 					</children>
 				</node>
+				
 
+				<node id="Resource">
+					<attribute id="AdditiveLoopingAnimationID" type="FixedString" value="" />
+					<attribute id="AnchorHand" type="uint8" value="0" />
+					<attribute id="Duration" type="float" value="4.266667" />
+					<attribute id="ID" type="FixedString" value="dddc265a-5168-8cec-57d4-6313cfe6c71a" />
+					<attribute id="IsPoseBank" type="bool" value="False" />
+					<attribute id="LeftTransitionAnimation" type="FixedString" value="" />
+					<attribute id="Looping" type="bool" value="False" />
+					<attribute id="Name" type="LSString" value="DRAGON_Skeletal_Rig_DFLT_IDLE_Still_Combat_01_Flying" />
+					<attribute id="Offset" type="float" value="0" />
+					<attribute id="PreviewVisualResource" type="FixedString" value="5fedc7f9-7e23-9510-8cb9-223f0746f52a" />
+					<attribute id="RightTransitionAnimation" type="FixedString" value="" />
+					<attribute id="SkeletonResource" type="FixedString" value="1dda719d-2e4a-6425-026e-476f3c7133cf" />
+					<attribute id="SourceFile" type="LSString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_IDLE_Still_Combat_01_Flying.GR2" />
+					<attribute id="SupportingLeg" type="uint8" value="0" />
+					<attribute id="Template" type="FixedString" value="Public/SharedDev/Assets/Characters/_Anims/_Creatures/Dragons/DRAGON_Skeletal_Rig/DRAGON_Skeletal_Rig_DFLT_IDLE_Still_Combat_01_Flying.Anim.0" />
+					<attribute id="TimeStep" type="float" value="0.004166667" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209023" />
+					<children>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="0.3018594" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="0.3018594" />
+							<attribute id="Track" type="uint8" value="2" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="1.335147" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.1" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="1.335147" />
+							<attribute id="Track" type="uint8" value="2" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.0999999" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="2.362631" />
+							<attribute id="Track" type="uint8" value="2" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.0999999" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="2.362631" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+				
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.0999999" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="3.413334" />
+							<attribute id="Track" type="uint8" value="2" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="5" />
+								</node>
+							</children>
+						</node>
+						<node id="Events">
+							<attribute id="ID" type="FixedString" value="Foley_Soft_Medium" />
+							<attribute id="Length" type="float" value="0.0999999" />
+							<attribute id="TextKeyType" type="uint8" value="12" />
+							<attribute id="Time" type="float" value="3.413334" />
+							<attribute id="Track" type="uint8" value="3" />
+							<children>
+								<node id="Properties">
+									<attribute id="EFoleyIntensity" type="uint8" value="0" />
+									<attribute id="EFoleyType" type="uint8" value="1" />
+									<attribute id="Resource" type="FixedString" value="" />
+									<attribute id="SoundObjectIndex" type="uint8" value="6" />
+								</node>
+							</children>
+						</node>
+						
+					</children>
+				</node>
 
 			</children>
 		</node>
@@ -4317,6 +4463,7 @@
 						<node id="ClothProxyMapping" />
 					</children>
 				</node>
+
 			</children>
 		</node>
 	</region>
