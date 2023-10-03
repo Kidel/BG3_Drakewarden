@@ -59,4 +59,8 @@
 	<content contentuid="h00076c4bg4507g445agb12cg69c938d7eaca" version="1">Become a masculine [1] Dragonborn.</content>
 	<content contentuid="h00086c4bg4507g445agb12cg69c938d7eaca" version="1">Become a feminine [1] Dragonborn.</content>
 
+	<content contentuid="h12345c4bg4507g445agb12cg69c938d7eaca" version="1">Ignis Fatuus</content>
+	<content contentuid="h22345c4bg4507g445agb12cg69c938d7eaca" version="1">Dismiss Ignis Fatuus</content>
+	<content contentuid="h67890c4bg4507g445agb12cg69c938d7eaca" version="1">Become a will-o'-wisp to better traverse terrain. Emits light.</content>
+	<content contentuid="h77890c4bg4507g445agb12cg69c938d7eaca" version="2">Dismiss your will-o'-wisp shape and turn back into your original form.</content>
 </contentList>

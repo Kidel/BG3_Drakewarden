@@ -5,18 +5,18 @@
 		<node id="Templates">
 			<children>
 				<node id="GameObjects">
-					<attribute id="MapKey" type="FixedString" value="000cc6e2-73e8-4c31-87a9-b03716d0b6d4" />
-					<attribute id="Name" type="LSString" value="Drakewarden_Companion_GaseousForm" />
-					<attribute id="Scale" type="float" value="0.10" />
+					<attribute id="MapKey" type="FixedString" value="000dd6e2-73e8-4c31-87a9-b03716d0b6d4" />
+					<attribute id="Name" type="LSString" value="Drakewarden_Companion_GaseousForm_Manual" />
+					<attribute id="Scale" type="float" value="0.3" />
 					<attribute id="LevelName" type="FixedString" value="" />
 					<attribute id="Type" type="FixedString" value="character" />
 					<attribute id="ParentTemplateId" type="FixedString" value="29ad5160-21d6-4e0b-9073-4fdee590f62f" />
 					<attribute id="Icon" type="FixedString" value="Portrait_GaseousForm" />
-					<attribute id="SpellSet" type="FixedString" value="DrakewardenCompanionSummonActions" />
 					<attribute id="Stats" type="FixedString" value="DrakeCheese" />
+					<attribute id="SpellSet" type="FixedString" value="DrakewardenCompanionSummonActions" />
 					<attribute id="SoundMovementStartEvent" type="FixedString" value="f0dc2a50-8689-c8c1-472e-cbb1e22587da" />
 					<attribute id="SoundMovementStopEvent" type="FixedString" value="14f80195-3efc-1351-bde9-57aeba79a926" />
-					<attribute id="CharacterVisualResourceID" type="FixedString" value="c5d70e97-a666-53d1-cb18-fc749d112f66" />
+					<attribute id="CharacterVisualResourceID" type="FixedString" value="cd9b2910-7788-4a72-e552-84c2c68a74d9" />
 					<attribute id="CanBePickedUp" type="bool" value="False" />
 					<attribute id="CanClimbLadders" type="bool" value="True" />
 					<children>
@@ -38,29 +38,46 @@
 								<node id="Bound">
 									<attribute id="Type" type="uint8" value="0" />
 									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="-0.2817519 -0.2816153 -0.2852117" />
-									<attribute id="Max" type="fvec3" value="0.2817632 0.2798491 0.2841098" />
-									<attribute id="Radius" type="float" value="0.2" />
-									<attribute id="Height" type="float" value="0.5" />
+									<attribute id="Min" type="fvec3" value="-0.145775 0.9623771 -0.145775" />
+									<attribute id="Max" type="fvec3" value="0.145775 1.25865 0.145775" />
+									<attribute id="Radius" type="float" value="0.15" />
+									<attribute id="Height" type="float" value="1.3" />
 								</node>
 								<node id="Bound">
 									<attribute id="Type" type="uint8" value="1" />
 									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="-0.2817519 -0.2816153 -0.2852117" />
-									<attribute id="Max" type="fvec3" value="0.2817632 0.2798491 0.2841098" />
-									<attribute id="Radius" type="float" value="0.1" />
-									<attribute id="Height" type="float" value="0.5" />
+									<attribute id="Min" type="fvec3" value="-0.145775 0.9623771 -0.145775" />
+									<attribute id="Max" type="fvec3" value="0.145775 1.25865 0.145775" />
+									<attribute id="Radius" type="float" value="0.15" />
+									<attribute id="Height" type="float" value="1.3" />
 								</node>
 								<node id="Bound">
 									<attribute id="Type" type="uint8" value="2" />
 									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="-0.2817519 -0.2816153 -0.2852117" />
-									<attribute id="Max" type="fvec3" value="0.2817632 0.2798491 0.2841098" />
-									<attribute id="Radius" type="float" value="0.1" />
-									<attribute id="Height" type="float" value="0.5" />
+									<attribute id="Min" type="fvec3" value="-0.145775 0.9623771 -0.145775" />
+									<attribute id="Max" type="fvec3" value="0.145775 1.25865 0.145775" />
+									<attribute id="Radius" type="float" value="0.15" />
+									<attribute id="Height" type="float" value="1.3" />
 								</node>
 							</children>
 						</node>
+						<node id="PickingPhysics">
+							<children>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterSittingPicking" />
+									<attribute id="MapValue" type="FixedString" value="7571267d-5a58-bc64-7b3d-5db194032edc" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterLyingPicking" />
+									<attribute id="MapValue" type="FixedString" value="7571267d-5a58-bc64-7b3d-5db194032edc" />
+								</node>
+								<node id="PickingPhysicsTemplates">
+									<attribute id="MapKey" type="FixedString" value="CharacterDeadPicking" />
+									<attribute id="MapValue" type="FixedString" value="7571267d-5a58-bc64-7b3d-5db194032edc" />
+								</node>
+							</children>
+						</node>
+						<node id="LocomotionParams" />
 						<node id="SkillList">
 							<children>
 								<node id="Skill">
@@ -92,7 +109,6 @@
 								</node>
 							</children>
 						</node>
-						<node id="LocomotionParams" />
 					</children>
 				</node>
 			</children>

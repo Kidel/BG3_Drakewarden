@@ -23,7 +23,11 @@ data "StepsType" "Clawed"
 data "GameSize" "Small"
 data "Flags" "SlippingImmunity;FloatingWhileMoving"
 data "SpellCastingAbility" "Wisdom"
+data "UnarmedMeleeAbilityModifier" "Strength"
+data "UnarmedAttackAbility" "Strength"
+data "UnarmedRangedAttackAbility" "Dexterity"
 
+// to make it hover while not moving
 //data "DynamicAnimationTag" "2f05f704-1fbd-4b5a-9a2b-c90ba8736130"
 
 new entry "Companion_Drakewarden_7"
@@ -59,4 +63,4 @@ type "Character"
 using "Companion_Drakewarden_3"
 data "Vitality" "1"
 data "Armor" "14"
-
+data "Flags" "SlippingImmunity;Floating"

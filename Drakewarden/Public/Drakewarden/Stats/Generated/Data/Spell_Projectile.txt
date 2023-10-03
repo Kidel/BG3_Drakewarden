@@ -15,6 +15,7 @@ data "Description" "h199f33fdg557fg4582gbc8fg418b557bbca7;1"
 data "Icon" "Generic_Dragon_Breath_Skill"
 data "ContainerSpells" "Projectile_Drakewarden_LightningBreath;Projectile_Drakewarden_FireBreath;Projectile_Drakewarden_ColdBreath;Projectile_Drakewarden_AcidBreath;Projectile_Drakewarden_PoisonBreath"
 data "SpellFlags" "IgnoreSilence;IsLinkedSpellContainer"
+data "RequirementConditions" "not HasStatus('DRAGON_SKELETAL_FLIGHTSTATE') and not HasStatus('POLYMORPH_DRAKENCHEESE') and not HasStatus('POLYMORPH_WILLOWISP')"
 
 new entry "Projectile_Drakewarden_LightningBreath"
 type "SpellData"

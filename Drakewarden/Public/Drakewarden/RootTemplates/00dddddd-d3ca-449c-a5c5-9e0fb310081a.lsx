@@ -27,6 +27,7 @@
 					<attribute id="LightID" type="FixedString" value="782d9d58-f4c5-4500-a16e-b81d737bcc53" />
 					<attribute id="FoleyMediumResourceID" type="FixedString" value="fd6409fb-e831-63bf-5ae3-d9f1cb235b0a" />
 					<attribute id="FoleyLongResourceID" type="FixedString" value="ae7de912-94bb-ed75-9cd4-8dfec432f26b" />
+					<attribute id="CanClimbLadders" type="bool" value="True" />
 					<children>
 						<node id="Tags">
 							<children>
@@ -57,7 +58,39 @@
 							</children>
 						</node>
 						
-						<node id="SkillList"/>
+						<node id="SkillList">
+							<children>
+								
+								<node id="Skill">
+									<attribute id="Skill" type="FixedString" value="Shout_Drake_FakeFire" />
+									<attribute id="SpellCastingAbility" type="uint8" value="0" />
+									<attribute id="LearningStrategy" type="uint8" value="0" />
+									<attribute id="ScoreModifier" type="float" value="1" />
+									<attribute id="StartRound" type="int32" value="0" />
+									<attribute id="FallbackStartRound" type="int32" value="-1" />
+									<attribute id="MinimumImpact" type="int32" value="0" />
+									<attribute id="OnlyCastOnSelf" type="bool" value="False" />
+									<attribute id="AIFlags" type="uint16" value="0" />
+									<children>
+										<node id="SourceConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+										<node id="TargetConditions">
+											<attribute id="MinimumHealthPercentage" type="int32" value="0" />
+											<attribute id="MaximumHealthPercentage" type="int32" value="100" />
+											<children>
+												<node id="Tags" />
+											</children>
+										</node>
+									</children>
+								</node>
+
+							</children>
+						</node>
 														
 						<node id="StatusList">
 							<children>

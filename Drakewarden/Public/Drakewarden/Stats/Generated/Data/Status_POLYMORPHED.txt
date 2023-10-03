@@ -35,22 +35,31 @@ type "StatusData"
 data "StatusType" "POLYMORPHED"
 data "DisplayName" "hddd777777777777777777777777777777777;1"
 data "Description" ""
-data "Icon" "Spell_Transmutation_Polymorph"
-data "SoundStop" "Spell_Impact_Control_Polymorph_L4"
+data "Icon" "Skill_Druid_FlamingSphere_Move"
+data "SoundStop" ""
 data "StackId" "POLYMORPH"
-data "Boosts" "Tag(AI_UNPREFERRED_TARGET);Tag(POLYMORPHED_UNWILLING);UnlockSpell(Shout_GaseousForm_Dismiss)"
+data "Boosts" "UnlockSpell(Shout_WilloWisp_Dismiss)"
 data "TemplateID" "000cc6e2-73e8-4c31-87a9-b03716d0b6d4"
 data "Rules" "ddddddc8-255f-4014-9f63-d7608eb1c2a0"
 data "StatusGroups" "SG_Polymorph"
 data "StatusEffect" ""
-data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisablePortraitIndicator"
+data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisablePortraitIndicator;DisableOverhead"
 
 
-
-
-
-
-
+new entry "POLYMORPH_WILLOWISP"
+type "StatusData"
+data "StatusType" "POLYMORPHED"
+data "DisplayName" "h12345c4bg4507g445agb12cg69c938d7eaca;1"
+data "Description" ""
+data "Icon" "Skill_Druid_FlamingSphere_Move"
+data "SoundStop" ""
+data "StackId" "POLYMORPH"
+data "Boosts" "GameplayLight(3,false,0.1);UnlockSpell(Shout_WilloWisp_Dismiss)"
+data "TemplateID" "000dd6e2-73e8-4c31-87a9-b03716d0b6d4"
+data "Rules" "ddddddc8-255f-4014-9f63-d7608eb1c2a0"
+data "StatusGroups" "SG_Polymorph"
+data "StatusPropertyFlags" "ApplyToDead"
+data "StatusEffect" "4769bddd-bb59-4861-bb7f-b7ef1f28888d"
 
 
 

@@ -7,11 +7,9 @@ local function SummonPolymorphHackWorkaround()
         -- Check if the template starts with "Drakewarden_Companion_"
         if template:sub(1, #"Drakewarden_Companion_") == "Drakewarden_Companion_" then
             print("Applying polymorph hack to " .. char)
-            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 1, 1, char)
-            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 1, 1, char)
-            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 1, 1, char)
-            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 1, 1, char)
-            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 1, 1, char)
+            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 3, 1, char)
+            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 3, 1, char)
+            Osi.ApplyStatus(char, "POLYMORPH_DRAKENCHEESE", 3, 1, char)
             print("Applied polymorph hack to " .. char)
         end
     end
