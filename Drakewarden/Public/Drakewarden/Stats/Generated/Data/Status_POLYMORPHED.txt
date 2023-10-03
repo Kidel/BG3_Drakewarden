@@ -42,7 +42,7 @@ data "Boosts" "UnlockSpell(Shout_WilloWisp_Dismiss)"
 data "TemplateID" "000cc6e2-73e8-4c31-87a9-b03716d0b6d4"
 data "Rules" "ddddddc8-255f-4014-9f63-d7608eb1c2a0"
 data "StatusGroups" "SG_Polymorph"
-data "StatusEffect" ""
+data "StatusEffect" "4769bddd-bb59-4861-bb7f-b7ef1f28888d"
 data "StatusPropertyFlags" "ApplyToDead;DisableCombatlog;DisablePortraitIndicator;DisableOverhead"
 
 
