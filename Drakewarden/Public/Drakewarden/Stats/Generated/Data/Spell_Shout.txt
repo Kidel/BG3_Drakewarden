@@ -29,6 +29,24 @@ data "Cooldown" ""
 data "UseCosts" ""
 
 
+new entry "Shout_Dash_NPC_Drake"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Dash"
+data "SpellAnimationIntentType" "Aggressive"
+data "SpellAnimation" "5e1ea033-bdac-4dff-94c9-482102632c06,,;13b7fbd2-dbce-4f25-8670-d08df8efa021,,;d25e89c9-2785-4ed2-abbc-5eee6f2785db,,;669703db-5624-41e4-af99-db768c26c9b4,,;e2376226-8b50-4023-b59c-5604016de454,,;,,;,,;,,;,,"
+
+new entry "Shout_Disengage_Drake"
+type "SpellData"
+data "SpellType" "Shout"
+using "Shout_Disengage"
+data "Icon" "Action_Disengage"
+data "DisplayName" "hda935133g8b96g4a80g96c5g0e07b53cbf27;2"
+data "Description" "h8c2b6afag034ag4daaga949g122363bf128c;7"
+data "SpellActionType" ""
+data "SpellAnimation" "5e1ea033-bdac-4dff-94c9-482102632c06,,;13b7fbd2-dbce-4f25-8670-d08df8efa021,,;d25e89c9-2785-4ed2-abbc-5eee6f2785db,,;669703db-5624-41e4-af99-db768c26c9b4,,;e2376226-8b50-4023-b59c-5604016de454,,;,,;,,;,,;,,"
+
+
 new entry "Shout_Draconic_FrightfulPresence"
 type "SpellData"
 data "SpellType" "Shout"

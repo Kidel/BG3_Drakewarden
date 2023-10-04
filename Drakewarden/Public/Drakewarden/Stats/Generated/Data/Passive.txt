@@ -20,7 +20,7 @@ new entry "Drakewarden_PerfectedBond_Passive"
 type "PassiveData"
 data "DisplayName" "hbfce36b9g82acg4c21gbb05g5b9f78481836;1"
 data "Description" "h9390fd66g5cceg4fb8gbdecg23d530d61244;1"
-data "Icon" "Drakewarden_PerfectedBond_Passive"
+data "Icon" "PassiveFeature_NaturalExplorer_BeastTamer"
 data "Boosts" "UnlockInterrupt(Interrupt_ReflexiveResistance_Drakewarden)"
 
 
