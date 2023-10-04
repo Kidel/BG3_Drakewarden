@@ -212,7 +212,7 @@ data "StackId" "UNSUMMONABLE"
 data "TickType" "StartTurn"
 data "Boosts" "UnlockSpell(Shout_Dismiss_Self);Tag(SUMMON)"
 data "StatusPropertyFlags" "DisableCombatlog;DisablePortraitIndicator;DisableOverhead;IgnoreResting"
-data "Passives" "Drake_Flight_Mode_Drakewarden_Toggle;Drake_WillOWisp_Toggle"
+data "Passives" "Drake_Flight_Mode_Drakewarden_Toggle;Drake_WillOWisp_Toggle;HuntersMark_RangerCompanion"
 
 
 new entry "UNLOCK_DRACONIC_FAMILIAR"
