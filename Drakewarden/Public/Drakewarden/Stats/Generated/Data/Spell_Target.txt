@@ -102,7 +102,7 @@ data "TooltipDamageList" "DealDamage(2d8+UnarmedMeleeAbilityModifier, Bludgeonin
 data "RequirementConditions" "not HasStatus('DRAGON_SKELETAL_FLIGHTSTATE') and not HasStatus('POLYMORPH_DRAKENCHEESE') and not HasStatus('POLYMORPH_WILLOWISP')"
 
 
-new entry "Target_Fly_Dragon_Drakewarden"
+new entry "Target_Fly_Dragon_Drakewarden_OLD"
 type "SpellData"
 data "SpellType" "Target"
 using "Target_Fly_Dragon_Skeletal"
@@ -115,7 +115,6 @@ data "UseCosts" "BonusActionPoint:1"
 data "SpellAnimation" "24ca7042-fcbd-45a2-86bc-cfbe9ebd1db0,,;2b83de89-ce8b-4e64-95a9-0be378cb78d9,,;51590072-32d2-4d56-962a-a87685538e56,,;5c4cb3d6-2d3b-4f70-9ad5-d6ef58f658cf,,;b719b67b-a530-43a2-b9a4-95f56a681fc7,,;,,;,,;,,;,,"
 data "SpellFlags" "RangeIgnoreVerticalThreshold;Invisible;IgnoreVisionBlock"
 data "Icon" "Action_Monster_GiantEagle_StrongWind"
-
 
 
 new entry "Target_DrakeCompanion_Familiar"

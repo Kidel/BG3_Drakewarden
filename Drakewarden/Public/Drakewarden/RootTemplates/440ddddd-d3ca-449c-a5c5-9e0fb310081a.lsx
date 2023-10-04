@@ -7,6 +7,7 @@
 				<node id="GameObjects">
 					<attribute id="MapKey" type="FixedString" value="440ddddd-d3ca-449c-a5c5-9e0fb310081a" />
 					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="Name" type="LSString" value="Drakewarden_Companion" />
 					<attribute id="ParentTemplateId" type="FixedString" value="44dddddd-d3ca-449c-a5c5-9e0fb310081a" />
 					<attribute id="CharacterVisualResourceID" type="FixedString" value="0dd20049-2ec2-07a7-b4d6-02a38b25d6ac" />
 					<attribute id="Icon" type="FixedString" value="00020049-2ec2-07a7-b4d6-02a38b25d6ac-_(Icon_Black_Dragon)" />
