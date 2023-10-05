@@ -15,6 +15,7 @@ data "Icon" "Action_ContactMizora"
 data "StackId" "LEVITATE"
 data "StatusGroups" "SG_RemoveOnRespec"
 data "DynamicAnimationTag" "2f05f704-1fbd-4b5a-9a2b-c90ba8736130"
+data "Boosts" "StatusImmunity(WEB);StatusImmunity(DIFFICULT_TERRAIN_WEB);StatusImmunity(ENSNARED);StatusImmunity(PRONE_GREASE);StatusImmunity(PRONE_ICE);StatusImmunity(ENSNARED_VINES);StatusImmunity(ENSNARING_STRIKE);StatusImmunity(ENSNARING_STRIKE_2);StatusImmunity(PRONE_ICE);StatusImmunity(PRONE_SEWER);StatusImmunity(DIFFICULT_TERRAIN)"
 
 
 new entry "DRAKEWARDEN_DRACONIC_ESSENCE_FIRE"

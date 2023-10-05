@@ -9,6 +9,388 @@
 	<region id="MaterialBank">
 		<node id="MaterialBank">
 			<children>
+
+
+
+
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="DRAGON_Blue_Eyes_A" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Eye_Parallax_Creature_FX.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="ParallaxWeight" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="6" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="FxMasking" />
+							<attribute id="Value" type="float" value="4.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="Blindness" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="AnimationSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="30" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="GlowBrightness" />
+							<attribute id="Value" type="float" value="25" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="GlowBrightnessPupil" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="SecondaryColourIntensity" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.3" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="IrisEdgeStrength" />
+							<attribute id="Value" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="Redness" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+							<attribute id="ID" type="FixedString" value="02e8e9b8-6109-f8b5-b210-d5d3b21b6c00" />
+							<attribute id="ParameterName" type="FixedString" value="RegionMask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="0fb24b34-10b6-0b03-c3d1-1e9729f83c3d" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+							<attribute id="ID" type="FixedString" value="2fe8bb0b-f32d-9185-5dbe-1303c812ca11" />
+							<attribute id="ParameterName" type="FixedString" value="ColorsMask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="be521294-8a12-abf1-7ef6-a93d6f4be776" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="e3784ed1-31f0-d88d-c641-02dbf4356571" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+							<attribute id="ID" type="FixedString" value="3bc801d3-5fd5-dfcc-fd15-acc4fa780546" />
+							<attribute id="ParameterName" type="FixedString" value="IrisNormal" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="FlameSpeed" />
+							<attribute id="Value" type="fvec2" value="0 0.2" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="FlameDirection" />
+							<attribute id="Value" type="fvec2" value="0 0.5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0 0.09250967 0.4891208" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_GlowColour" />
+							<attribute id="Value" type="fvec3" value="0 0.2758328 0.8751376" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.0600316 0.183549 0.7445301" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_IrisColour" />
+							<attribute id="Value" type="fvec3" value="0.1275298 0.2549159 0.8912621" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.04455262 0.5234432 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_IrisSecondaryColour" />
+							<attribute id="Value" type="fvec3" value="0.02201299 0.03155139 0.3488648" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.01765043 0.01482484 0.1546604" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_BloodColour" />
+							<attribute id="Value" type="fvec3" value="0.01765043 0.01482484 0.1546604" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0 0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_ScleraColour" />
+							<attribute id="Value" type="fvec3" value="0.01188133 0.05284162 0.03155139" />
+						</node>
+					</children>
+				</node>
+
+				<node id="Resource">
+					<attribute id="DiffusionProfileUUID" type="FixedString" value="" />
+					<attribute id="ID" type="FixedString" value="edd5705d-6764-4d55-d3a2-91c6fac3eb70" />
+					<attribute id="MaterialType" type="uint8" value="18" />
+					<attribute id="Name" type="LSString" value="DRAGON_Green_Eyes_A" />
+					<attribute id="SourceFile" type="LSString" value="Public/Shared/Assets/Materials/Characters/CHAR_Eye_Parallax_Creature_FX.lsf" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209030" />
+					<children>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="ParallaxWeight" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="6" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="FxMasking" />
+							<attribute id="Value" type="float" value="4.5" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="Blindness" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="AnimationSpeed" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="30" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="GlowBrightness" />
+							<attribute id="Value" type="float" value="25" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="GlowBrightnessPupil" />
+							<attribute id="Value" type="float" value="0" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="SecondaryColourIntensity" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="0.3" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="IrisEdgeStrength" />
+							<attribute id="Value" type="float" value="0.2" />
+						</node>
+						<node id="ScalarParameters">
+							<attribute id="BaseValue" type="float" value="1" />
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="Redness" />
+							<attribute id="Value" type="float" value="1" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+							<attribute id="ID" type="FixedString" value="02e8e9b8-6109-f8b5-b210-d5d3b21b6c00" />
+							<attribute id="ParameterName" type="FixedString" value="RegionMask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="0fb24b34-10b6-0b03-c3d1-1e9729f83c3d" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+							<attribute id="ID" type="FixedString" value="2fe8bb0b-f32d-9185-5dbe-1303c812ca11" />
+							<attribute id="ParameterName" type="FixedString" value="ColorsMask" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="be521294-8a12-abf1-7ef6-a93d6f4be776" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="False" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="" />
+							<attribute id="ID" type="FixedString" value="e3784ed1-31f0-d88d-c641-02dbf4356571" />
+							<attribute id="ParameterName" type="FixedString" value="" />
+						</node>
+						<node id="Texture2DParameters">
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="01Texture Maps" />
+							<attribute id="ID" type="FixedString" value="3bc801d3-5fd5-dfcc-fd15-acc4fa780546" />
+							<attribute id="ParameterName" type="FixedString" value="IrisNormal" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="FlameSpeed" />
+							<attribute id="Value" type="fvec2" value="0 0.2" />
+						</node>
+						<node id="Vector2Parameters">
+							<attribute id="BaseValue" type="fvec2" value="0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="ParameterName" type="FixedString" value="FlameDirection" />
+							<attribute id="Value" type="fvec2" value="0 0.5" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0 0.4891208 0.09250967" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_GlowColour" />
+							<attribute id="Value" type="fvec3" value="0 0.8751376 0.2758328" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.0600316 0.7445301 0.183549" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_IrisColour" />
+							<attribute id="Value" type="fvec3" value="0.1275298 0.8912621 0.2549159" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.04455262 0.5234432 1" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_IrisSecondaryColour" />
+							<attribute id="Value" type="fvec3" value="0.02201299 0.3488648 0.03155139" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0.01765043 0.1546604 0.01482484" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_BloodColour" />
+							<attribute id="Value" type="fvec3" value="0.01765043 0.1546604 0.01482484" />
+						</node>
+						<node id="Vector3Parameters">
+							<attribute id="BaseValue" type="fvec3" value="0 0 0" />
+							<attribute id="Enabled" type="bool" value="True" />
+							<attribute id="ExportAsPreset" type="bool" value="True" />
+							<attribute id="GroupName" type="FixedString" value="06Eyes" />
+							<attribute id="IsColor" type="bool" value="True" />
+							<attribute id="ParameterName" type="FixedString" value="Eyes_ScleraColour" />
+							<attribute id="Value" type="fvec3" value="0.01188133 0.03155139 0.05284162" />
+						</node>
+					</children>
+				</node>
+
+
+
+
+
+
+
 				
 				<node id="Resource">
 					<attribute id="DiffusionProfileUUID" type="FixedString" value="a4129408-40d6-b438-60b8-b2602d71b07f" />
@@ -8017,7 +8399,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -8037,7 +8419,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="1" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD1.4" />
 						</node>
 						<node id="Objects">
@@ -8057,7 +8439,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="2" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD2.8" />
 						</node>
 						<node id="Objects">
@@ -8077,7 +8459,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="3" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD3.12" />
 						</node>
 						<node id="Objects">
@@ -8282,7 +8664,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="edd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -8302,7 +8684,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="1" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="edd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD1.4" />
 						</node>
 						<node id="Objects">
@@ -8322,7 +8704,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="2" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="edd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD2.8" />
 						</node>
 						<node id="Objects">
@@ -8342,7 +8724,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="3" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="edd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD3.12" />
 						</node>
 						<node id="Objects">
@@ -8547,7 +8929,7 @@
 						<node id="ClothProxyMapping" />
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="0" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh.0" />
 						</node>
 						<node id="Objects">
@@ -8567,7 +8949,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="1" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD1.4" />
 						</node>
 						<node id="Objects">
@@ -8587,7 +8969,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="2" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD2.8" />
 						</node>
 						<node id="Objects">
@@ -8607,7 +8989,7 @@
 						</node>
 						<node id="Objects">
 							<attribute id="LOD" type="uint8" value="3" />
-							<attribute id="MaterialID" type="FixedString" value="2fc5705d-6764-4d55-d3a2-91c6fac3eb70" />
+							<attribute id="MaterialID" type="FixedString" value="bdd5705d-6764-4d55-d3a2-91c6fac3eb70" />
 							<attribute id="ObjectID" type="FixedString" value="DRAGON_Red_Head_A.DRAGON_Red_Head_A_Eye_Mesh_LOD3.12" />
 						</node>
 						<node id="Objects">

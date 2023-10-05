@@ -48,4 +48,3 @@ data "StatsFunctorContext" "OnStatusApplied;OnStatusRemoved"
 data "ToggleOnFunctors" "ApplyStatus(POLYMORPH_WILLOWISP,100,-1)"
 data "ToggleOffFunctors" "RemoveStatus(POLYMORPH_WILLOWISP)"
 
-
