@@ -1,0 +1,19 @@
+function ReflexiveResistanceDrakewardenCheck(damageType, entity)
+    local entity = entity or context.Target
+    if (damageType == DamageType.Acid
+        or damageType == DamageType.Cold
+        or damageType == DamageType.Fire
+        or damageType == DamageType.Lightning
+        or damageType == DamageType.Thunder
+        or damageType == DamageType.Necrotic
+        or damageType == DamageType.Radiant
+        or damageType == DamageType.Force
+        or damageType == DamageType.Psychic
+        or damageType == DamageType.Poison
+        or damageType == DamageType.Piercing
+        or damageType == DamageType.Slashing
+        or damageType == DamageType.Bludgeoning
+    ) then
+        return ~IsResistantToDamageType(damageType, entity)
+    end
+end

@@ -27,7 +27,36 @@
 					<attribute id="LightID" type="FixedString" value="782d9d58-f4c5-4500-a16e-b81d737bcc53" />
 					<attribute id="FoleyMediumResourceID" type="FixedString" value="fd6409fb-e831-63bf-5ae3-d9f1cb235b0a" />
 					<attribute id="FoleyLongResourceID" type="FixedString" value="ae7de912-94bb-ed75-9cd4-8dfec432f26b" />
+					<attribute id="PhysicsTemplate" type="FixedString" value="fc4c05e4-ff0e-3f16-f7d2-5cc04ea2d623" />
 					<children>
+						<node id="Bounds">
+							<children>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="0" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.40751 -0.00135875 -0.1058585" />
+									<attribute id="Max" type="fvec3" value="0.40751 1.93354 0.0630085" />
+									<attribute id="Radius" type="float" value="0.5" />
+									<attribute id="Height" type="float" value="4" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="1" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="0.4" />
+									<attribute id="Height" type="float" value="4" />
+								</node>
+								<node id="Bound">
+									<attribute id="Type" type="uint8" value="2" />
+									<attribute id="Shape" type="uint8" value="2" />
+									<attribute id="Min" type="fvec3" value="-0.81502 -0.00135875 -0.211717" />
+									<attribute id="Max" type="fvec3" value="0.81502 1.93354 0.126017" />
+									<attribute id="Radius" type="float" value="4.5" />
+									<attribute id="Height" type="float" value="4" />
+								</node>
+							</children>
+						</node>
 						<node id="Tags">
 							<children>
 								<node id="Tag">
@@ -38,18 +67,6 @@
 								</node>
 								<node id="Tag">
 									<attribute id="Object" type="guid" value="801bd716-0666-4dd5-49b4-ff45a5a90f2a" />
-								</node>
-							</children>
-						</node>
-						<node id="Bounds">
-							<children>
-								<node id="Bound">
-									<attribute id="Type" type="uint8" value="0" />
-									<attribute id="Shape" type="uint8" value="2" />
-									<attribute id="Min" type="fvec3" value="-17.09584 -0.06285524 -7.787262" />
-									<attribute id="Max" type="fvec3" value="17.09584 5.662447 14.59563" />
-									<attribute id="Radius" type="float" value="4.0214" />
-									<attribute id="Height" type="float" value="5.397603" />
 								</node>
 							</children>
 						</node>
