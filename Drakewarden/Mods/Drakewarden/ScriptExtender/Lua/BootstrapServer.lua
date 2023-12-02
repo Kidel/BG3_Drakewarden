@@ -34,5 +34,3 @@ Ext.Osiris.RegisterListener("TimerFinished", 1, "after", function (timerName)
         print("Polymorph hack workaround applied. Use !drakefix to apply again.")
     end
 end)
-
-Ext.Require("InitCompatibilityFramework.lua")
