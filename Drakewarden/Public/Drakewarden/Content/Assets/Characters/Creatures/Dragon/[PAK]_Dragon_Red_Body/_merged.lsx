@@ -483,7 +483,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="42932f24-95ef-22bd-73a6-807623cb6973" />
+							<attribute id="ID" type="FixedString" value="d64e9bcc-8fe5-44e6-bb0c-d36f858ae76f" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -518,7 +518,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="bad91010-d3ed-c795-3fa9-53f8342ad247" />
+							<attribute id="ID" type="FixedString" value="d127ef7b-b776-4aae-abfd-e1b10c90884d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -659,7 +659,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="c4943462-ce41-34e8-2c29-77710b49cfd4" />
+							<attribute id="ID" type="FixedString" value="d84364c3-9822-44eb-bfb5-e0994656bfde" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -694,7 +694,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="0219abc6-aeca-7d80-d0b9-969c5ebbd01a" />
+							<attribute id="ID" type="FixedString" value="d19d1b80-bbd7-4823-aa94-95814041a02d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -835,7 +835,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="dd4fbf87-2afc-c55b-bc64-7debde95ec80" />
+							<attribute id="ID" type="FixedString" value="dd48bfac-c9ea-41c7-858f-9e1323518447" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -870,7 +870,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="75d5bfff-5d74-411d-0785-667840c3d1d6" />
+							<attribute id="ID" type="FixedString" value="d2882e18-26f9-4b1c-9d10-f4cf3bca28cc" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -1025,7 +1025,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="42932f24-95ef-22bd-73a6-807623cb6973" />
+							<attribute id="ID" type="FixedString" value="d64e9bcc-8fe5-44e6-bb0c-d36f858ae76f" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1060,7 +1060,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="bad91010-d3ed-c795-3fa9-53f8342ad247" />
+							<attribute id="ID" type="FixedString" value="d127ef7b-b776-4aae-abfd-e1b10c90884d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -1202,7 +1202,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="c4943462-ce41-34e8-2c29-77710b49cfd4" />
+							<attribute id="ID" type="FixedString" value="d84364c3-9822-44eb-bfb5-e0994656bfde" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1237,7 +1237,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="0219abc6-aeca-7d80-d0b9-969c5ebbd01a" />
+							<attribute id="ID" type="FixedString" value="d19d1b80-bbd7-4823-aa94-95814041a02d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -1378,7 +1378,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="dd4fbf87-2afc-c55b-bc64-7debde95ec80" />
+							<attribute id="ID" type="FixedString" value="dd48bfac-c9ea-41c7-858f-9e1323518447" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1413,7 +1413,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="75d5bfff-5d74-411d-0785-667840c3d1d6" />
+							<attribute id="ID" type="FixedString" value="d2882e18-26f9-4b1c-9d10-f4cf3bca28cc" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -1571,7 +1571,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="42932f24-95ef-22bd-73a6-807623cb6973" />
+							<attribute id="ID" type="FixedString" value="d64e9bcc-8fe5-44e6-bb0c-d36f858ae76f" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1606,7 +1606,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="bad91010-d3ed-c795-3fa9-53f8342ad247" />
+							<attribute id="ID" type="FixedString" value="d127ef7b-b776-4aae-abfd-e1b10c90884d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -1748,7 +1748,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="c4943462-ce41-34e8-2c29-77710b49cfd4" />
+							<attribute id="ID" type="FixedString" value="d84364c3-9822-44eb-bfb5-e0994656bfde" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1783,7 +1783,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="0219abc6-aeca-7d80-d0b9-969c5ebbd01a" />
+							<attribute id="ID" type="FixedString" value="d19d1b80-bbd7-4823-aa94-95814041a02d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -1924,7 +1924,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="dd4fbf87-2afc-c55b-bc64-7debde95ec80" />
+							<attribute id="ID" type="FixedString" value="dd48bfac-c9ea-41c7-858f-9e1323518447" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -1959,7 +1959,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="75d5bfff-5d74-411d-0785-667840c3d1d6" />
+							<attribute id="ID" type="FixedString" value="d2882e18-26f9-4b1c-9d10-f4cf3bca28cc" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -2116,7 +2116,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="42932f24-95ef-22bd-73a6-807623cb6973" />
+							<attribute id="ID" type="FixedString" value="d64e9bcc-8fe5-44e6-bb0c-d36f858ae76f" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -2151,7 +2151,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="bad91010-d3ed-c795-3fa9-53f8342ad247" />
+							<attribute id="ID" type="FixedString" value="d127ef7b-b776-4aae-abfd-e1b10c90884d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -2293,7 +2293,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="c4943462-ce41-34e8-2c29-77710b49cfd4" />
+							<attribute id="ID" type="FixedString" value="d84364c3-9822-44eb-bfb5-e0994656bfde" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -2328,7 +2328,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="0219abc6-aeca-7d80-d0b9-969c5ebbd01a" />
+							<attribute id="ID" type="FixedString" value="d19d1b80-bbd7-4823-aa94-95814041a02d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -2469,7 +2469,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="dd4fbf87-2afc-c55b-bc64-7debde95ec80" />
+							<attribute id="ID" type="FixedString" value="dd48bfac-c9ea-41c7-858f-9e1323518447" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -2504,7 +2504,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="75d5bfff-5d74-411d-0785-667840c3d1d6" />
+							<attribute id="ID" type="FixedString" value="d2882e18-26f9-4b1c-9d10-f4cf3bca28cc" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -2659,7 +2659,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="42932f24-95ef-22bd-73a6-807623cb6973" />
+							<attribute id="ID" type="FixedString" value="d64e9bcc-8fe5-44e6-bb0c-d36f858ae76f" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -2694,7 +2694,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="bad91010-d3ed-c795-3fa9-53f8342ad247" />
+							<attribute id="ID" type="FixedString" value="d127ef7b-b776-4aae-abfd-e1b10c90884d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -2836,7 +2836,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="c4943462-ce41-34e8-2c29-77710b49cfd4" />
+							<attribute id="ID" type="FixedString" value="d84364c3-9822-44eb-bfb5-e0994656bfde" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -2871,7 +2871,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="0219abc6-aeca-7d80-d0b9-969c5ebbd01a" />
+							<attribute id="ID" type="FixedString" value="d19d1b80-bbd7-4823-aa94-95814041a02d" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -3012,7 +3012,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="dd4fbf87-2afc-c55b-bc64-7debde95ec80" />
+							<attribute id="ID" type="FixedString" value="dd48bfac-c9ea-41c7-858f-9e1323518447" />
 							<attribute id="ParameterName" type="FixedString" value="normalmap" />
 						</node>
 						<node id="Texture2DParameters">
@@ -3047,7 +3047,7 @@
 							<attribute id="Enabled" type="bool" value="True" />
 							<attribute id="ExportAsPreset" type="bool" value="True" />
 							<attribute id="GroupName" type="FixedString" value="01 Texture Map" />
-							<attribute id="ID" type="FixedString" value="75d5bfff-5d74-411d-0785-667840c3d1d6" />
+							<attribute id="ID" type="FixedString" value="d2882e18-26f9-4b1c-9d10-f4cf3bca28cc" />
 							<attribute id="ParameterName" type="FixedString" value="physicalmap" />
 						</node>
 						<node id="Vector3Parameters">
@@ -3342,6 +3342,128 @@
 					<attribute id="Template" type="FixedString" value="DRAGON_Red_Body1_A_BMA" />
 					<attribute id="Type" type="int32" value="1" />
 					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+
+
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="d64e9bcc-8fe5-44e6-bb0c-d36f858ae76f" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Head_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Red_Head_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Red_Head_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="debe5d73-3bf0-4748-8f9e-f8dba54cb37a" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Head_A_PMA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Red_Head_A_PMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Red_Head_A_PMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="d84364c3-9822-44eb-bfb5-e0994656bfde" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Body1_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Red_Body1_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Red_Body1_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="d0f34d81-ac94-44c3-a7a4-7a0f60c0395a" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Body1_A_PMA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Red_Body1_A_PMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Red_Body1_A_PMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="dd48bfac-c9ea-41c7-858f-9e1323518447" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Body2_A_NM" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Red_Body2_A_NM.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Red_Body2_A_NM" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="d221e5fc-3272-4f20-acf6-04284031163d" />
+					<attribute id="Name" type="LSString" value="DRAGON_Red_Body2_A_PMA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Red_Body2_A_PMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Red_Body2_A_PMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="d19d1b80-bbd7-4823-aa94-95814041a02d" />
+					<attribute id="Name" type="LSString" value="DRAGON_Body1_A_Chromatic_PMA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Body1_A_Chromatic_PMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Body1_A_Chromatic_PMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="ID" type="FixedString" value="d2882e18-26f9-4b1c-9d10-f4cf3bca28cc" />
+					<attribute id="Name" type="LSString" value="DRAGON_Body2_A_Chromatic_PMA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Body2_A_Chromatic_PMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Body2_A_Chromatic_PMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
+				</node>
+				<node id="Resource">
+					<attribute id="Depth" type="int32" value="1" />
+					<attribute id="Height" type="int32" value="4096" />
+					<attribute id="ID" type="FixedString" value="d127ef7b-b776-4aae-abfd-e1b10c90884d" />
+					<attribute id="Name" type="LSString" value="DRAGON_Head_A_Chromatic_PMA" />
+					<attribute id="SRGB" type="bool" value="False" />
+					<attribute id="SourceFile" type="LSString" value="Generated/Public/Drakewarden/Assets/Characters/_Models/_Creatures/Dragons/Resources/DRAGON_Head_A_Chromatic_PMA.DDS" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Template" type="FixedString" value="DRAGON_Head_A_Chromatic_PMA" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="Width" type="int32" value="4096" />
 					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209031" />
 				</node>
 
