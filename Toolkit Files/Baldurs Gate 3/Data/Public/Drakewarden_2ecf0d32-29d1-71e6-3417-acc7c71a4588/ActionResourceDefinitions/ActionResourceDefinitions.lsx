@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ActionResourceDefinitions">
+        <node id="root">
+            <children>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h099f33fdg557fg4582gbc8fg418b557bbca7" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hb07adaf4gac4fg4385g89f6gb2bf2336ba4c" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="DrakesBreathUse" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                    <attribute id="UUID" type="guid" value="7f37b676-7e2a-48c6-93b6-c232af48bf41" />
+                </node>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="h61cd9a54gef70g4775gb0dagb74e9ece6ec0" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="had7b4b18g7d08g4c6dg9adcg0e6fac39bc1c" version="1" />
+                    <attribute id="IsHidden" type="bool" value="true" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="DrakeCompanionUse" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="false" />
+                    <attribute id="UUID" type="guid" value="e250d714-2146-4437-9a70-b22c661389ab" />
+                </node>
+				<node id="ActionResourceDefinition">
+                    <attribute id="Description" type="TranslatedString" handle="hcae976a6g9842g4dfbg8113ge9cef4da3333" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hde939856g11f7g4b97g9b06gc3c5c6ea89da" version="1" />
+                    <attribute id="IsHidden" type="bool" value="false" />
+                    <attribute id="MaxLevel" type="uint32" value="0" />
+                    <attribute id="Name" type="FixedString" value="ReflexiveResistanceUse" />
+                    <attribute id="ReplenishType" type="FixedString" value="Rest" />
+                    <attribute id="ShowOnActionResourcePanel" type="bool" value="true" />
+                    <attribute id="UUID" type="guid" value="25ca66c5-fb53-43b6-9abc-9a4e1349c7ae" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
+
+

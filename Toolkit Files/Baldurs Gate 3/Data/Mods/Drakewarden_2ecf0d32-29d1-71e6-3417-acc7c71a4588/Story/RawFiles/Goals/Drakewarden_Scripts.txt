@@ -1,0 +1,58 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_5_11dddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_7_22dddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_11_33dddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_15_44dddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_GaseousForm_Manual_000dd6e2-73e8-4c31-87a9-b03716d0b6d4);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_GaseousForm_000cc6e2-73e8-4c31-87a9-b03716d0b6d4);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_00fddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_00eddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_00dddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_00bddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_000ddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_110ddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_11bddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_11eddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_11fddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_220ddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_22bddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_22fddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_22eddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_330ddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_33bddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_33eddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_33fddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_440ddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_44bddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_44eddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_Drakewarden_Companion_44fddddd-d3ca-449c-a5c5-9e0fb310081a);
+DB_DrakewardenTemplates((GUIDSTRING)_DragonGiftStone_DraconicFamiliar_fff225a8-5daf-49a2-84f4-eaed738eb918);
+DB_DrakewardenTemplates((GUIDSTRING)_DragonGiftStone_DraconicRebirth_fff48d52-5623-470f-b316-400c7c45ebee);
+DB_DrakewardenTemplates((GUIDSTRING)_DragonGiftStone_FrightfulPresence_fff72229-fa64-4717-ad48-037afb07d806);
+KBSECTION
+IF
+LevelGamePlayStarted(_Level,_IsEditor)
+THEN
+TimerCancel("LykonPolymorphHack");
+TimerLaunch("LykonPolymorphHack", 1500);
+
+IF
+TimerFinished("LykonPolymorphHack")
+AND
+DB_PlayerSummons(_Summon)
+AND
+GetTemplate(_Summon,_Template)
+AND
+DB_DrakewardenTemplates(_Templates)
+AND
+_Template == _Templates
+THEN
+DebugText(_Summon,"This part is working");
+ApplyStatus(_Summon, "POLYMORPH_DRAKENCHEESE", 3.0, 1, _Summon);
+ApplyStatus(_Summon, "POLYMORPH_DRAKENCHEESE", 3.0, 1, _Summon);
+ApplyStatus(_Summon, "POLYMORPH_DRAKENCHEESE", 3.0, 1, _Summon);
+EXITSECTION
+
+ENDEXITSECTION
