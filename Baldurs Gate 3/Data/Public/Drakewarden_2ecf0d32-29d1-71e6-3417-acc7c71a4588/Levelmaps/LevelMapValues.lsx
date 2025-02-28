@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="LevelMapValues">
+        <node id="root">
+            <children>
+                <node id="LevelMapSeries">
+                    <attribute id="Level11" type="LSString" value="8d6"/>
+                    <attribute id="Level15" type="LSString" value="10d6"/>
+                    <attribute id="Name" type="FixedString" value="DrakesBreathDamage"/>
+					<attribute id="PreferredClassUUID" type="guid" value="36be18ba-23db-4dff-bfa6-ae105ce43144"/>
+                    <attribute id="UUID" type="guid" value="9fe31be6-7cf3-40f8-bd70-e8f546ce8103"/>
+				</node>
+            </children>
+        </node>
+    </region>
+</save>

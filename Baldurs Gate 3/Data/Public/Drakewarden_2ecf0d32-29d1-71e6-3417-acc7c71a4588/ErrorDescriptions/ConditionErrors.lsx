@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ConditionErrors">
+        <node id="root">
+            <children>
+			    <node id="ConditionErrors">
+                    <attribute id="DisplayName" type="TranslatedString" handle="h9c00eb86g94b6g4057g85ffgab1ae52b8400" version="1"/>
+                    <attribute id="ErrorDescriptionType" type="uint8" value="0"/>
+                    <attribute id="Identifier" type="FixedString" value="NotIsDrakewarden"/>
+                    <attribute id="UUID" type="guid" value="c5b05309-9803-42bf-a1e2-a0bf79fff40a"/>
+				</node>
+            </children>
+        </node>
+    </region>
+</save>

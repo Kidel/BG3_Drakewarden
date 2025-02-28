@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<contentList xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<content contentuid="h777777777777777777777777777777777777" version="1">Debug</content>
+	<content contentuid="h777777777777777777777777777777777778" version="1">Debug [1]</content>
+	<content contentuid="hddd777777777777777777777777777777777" version="1">Drake walking animation fix script cheese</content>	
+	<content contentuid="ha4bc6221ga255g47afg8b58g8e9a858c140a" version="1">Drakewarden</content>
+	<content contentuid="h5483d543gba70g4efdga2a8g77432c51cdcb" version="1">Your connection to the natural world takes the form of a draconic spirit, which can manifest in physical form as a drake.  As your powers grow, your drake grows as well, blossoming from a small four-legged companion to a majestic, winged creature large and strong enough for you to ride.  Along the way, you gain an increasing share of the awe-inspiring power of dragons.</content>
+	<content contentuid="had7b4b18g7d08g4c6dg9adcg0e6fac39bc1c" version="1">Drake Companion</content>
+	<content contentuid="h7de2c1c6g7290g421ag83fdg78025bfa5b29" version="1">Drake</content>
+	<content contentuid="h0015dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Fire Draconic Essence</content>
+	<content contentuid="h0025dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Acid Draconic Essence</content>
+	<content contentuid="h0035dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Cold Draconic Essence</content>
+	<content contentuid="h0045dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Lightning Draconic Essence</content>
+	<content contentuid="h0055dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Poison Draconic Essence</content>
+	<content contentuid="h00a5dd70gbe43g4fd0gb0f2gb801c1ab36a8" version="1">Deal additional [1] damage.</content>
+	<content contentuid="haaa1d053gf5e1g400dg84a3g8913a1d9c4fb" version="1">You can magically summon the drake that is bound to you. It appears in an unoccupied space of your choice within [1] of you.</content>
+	<content contentuid="hc972d04fg4701g4dd0g8c83g90664e81d53e" version="1">Melee Attack</content>
+	<content contentuid="hf27488d0g39bdg4705g995fge58ac0278c4e" version="1">A ferocious attack with claws and fangs.</content>
+	<content contentuid="h6929787fg0fa0g4df2ga84agf3722948325f" version="1">Infused Strikes</content>
+	<content contentuid="h23322a79g97beg4043g9503gf65b0bbabba2" version="1">When another creature within [1] of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra 1d6 damage of the type determined by its Draconic Essence.</content>
+	<content contentuid="h2a6ba290g2eb4g45e3gb961g87434769a44c" version="1">When another creature within [1] of the drake that it can see hits a target with a weapon attack, the drake infuses the strike with its essence, causing the target to take an extra [2].</content>
+	<content contentuid="hde939856g11f7g4b97g9b06gc3c5c6ea89da" version="1">Reflexive Resistance</content>
+	<content contentuid="hf4d0c22agdc60g481eg8e68gf8c60671116b" version="1">When either you or the drake takes damage while you're within [1] of each other, you can use your &lt;LSTag Type="ActionResource" Tooltip="ReactionActionPoint"&gt;reaction&lt;/LSTag&gt; to give yourself or the drake &lt;LSTag Tooltip="Resistant"&gt;resistance&lt;/LSTag&gt; to that instance of damage.</content>
+	<content contentuid="hb07adaf4gac4fg4385g89f6gb2bf2336ba4c" version="1">Drake's Breath</content>
+	<content contentuid="h099f33fdg557fg4582gbc8fg418b557bbca7" version="1">As an action, you can exhale a cone of damaging breath or cause your drake to exhale it. Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the cone must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; against your spell save DC, taking half damage on a successful save.</content>
+	<content contentuid="h199f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the blast area must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; against your spell save DC, taking 8d6 damage on a failed save, or half as much damage on a successful one. This damage increases to 10d6 when you reach 15th level in Drakewarden.</content>
+	<content contentuid="h299f33fdg557fg4582gbc8fg418b557bbca7" version="1">Choose acid, cold, fire, lightning, or poison damage (your choice doesn't have to match your drake's Draconic Essence). Each creature in the cone must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; against your spell save DC, taking [1] damage on a failed save, or half as much damage on a successful one.</content>
+	<content contentuid="h2c405069g84f9g4167g9dbfgb6e619d61889" version="1">Each creature in the area must make a Dexterity &lt;LSTag Tooltip="SavingThrow"&gt;saving throw&lt;/LSTag&gt; against your spell save DC, taking half damage on a successful save.</content>
+	<content contentuid="h05e41704g0501g40f1ga8c9gb7400102b458" version="1">Bond of Fang and Scale</content>
+	<content contentuid="h38955002gb265g4c15gbe7cgb107a7fa71b2" version="1">The bond you share with your drake intensifies, protecting you and stoking the drake's fury. The drake's Bite attack deals an extra 1d6 damage of the type chosen for the drake's Draconic Essence. You gain &lt;LSTag Tooltip="Resistant"&gt;resistance&lt;/LSTag&gt; to the damage type chosen for the drake's Draconic Essence.</content>
+	<content contentuid="h77955002gb265g4c15gbe7cgb107a7fa71b2" version="1">You gain &lt;LSTag Tooltip="Resistant"&gt;resistance&lt;/LSTag&gt; to the damage type chosen for the drake's Draconic Essence.</content>
+	<content contentuid="hbfce36b9g82acg4c21gbb05g5b9f78481836" version="1">Perfected Bond</content>
+	<content contentuid="h9390fd66g5cceg4fb8gbdecg23d530d61244" version="1">Your bonded drake's damage bonus is increased by 1d6 (to a total of 2d6) and it grows larger. You also gain Reflexive Resistance.</content>
+	<content contentuid="h007b4b18g7d08g4c6dg9adcg0e6fac39bc1c" version="1">Drake Familiar</content>
+	<content contentuid="h00006c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Gift: Familiar</content>
+	<content contentuid="h00016c4bg4507g445agb12cg69c938d7eaca" version="1">You gain the aid of a draconic familiar, which might be a splinter of the consciousness of a dragon that invested you with power.</content>
+	<content contentuid="h00026c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Gift: Rebirth</content>
+	<content contentuid="h00036c4bg4507g445agb12cg69c938d7eaca" version="1">You gain the power to become a Dragonborn.</content>
+	<content contentuid="h00046c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Gift: Frightful Presence</content>
+	<content contentuid="h00056c4bg4507g445agb12cg69c938d7eaca" version="1">Echoes of a dragon's might linger around you, and you can call on them to inspire fear in those who stand against you.</content>
+	<content contentuid="h00066c4bg4507g445agb12cg69c938d7eaca" version="1">Draconic Rebirth</content>
+	<content contentuid="h00076c4bg4507g445agb12cg69c938d7eaca" version="1">Become a masculine [1] Dragonborn.</content>
+	<content contentuid="h00086c4bg4507g445agb12cg69c938d7eaca" version="1">Become a feminine [1] Dragonborn.</content>
+	<content contentuid="h12345c4bg4507g445agb12cg69c938d7eaca" version="1">Ignis Fatuus</content>
+	<content contentuid="h22345c4bg4507g445agb12cg69c938d7eaca" version="1">Dismiss Ignis Fatuus</content>
+	<content contentuid="h67890c4bg4507g445agb12cg69c938d7eaca" version="1">Become a will-o'-wisp to better traverse terrain. Emits light.</content>
+	<content contentuid="h77890c4bg4507g445agb12cg69c938d7eaca" version="1">Dismiss your will-o'-wisp shape and turn back into your original form.</content>
+	<content contentuid="h01010c4bg4507g445agb12cg69c938d7eaca" version="1">Hover</content>
+	<content contentuid="h11010c4bg4507g445agb12cg69c938d7eaca" version="1">Hover in the air to avoid touching the ground. Makes you immune to most &lt;LSTag Type="Status" Tooltip="DIFFICULT_TERRAIN"&gt;difficult terrains&lt;/LSTag&gt; such as grease, web, and vines.</content>
+	<content contentuid="hdddd0985g30feg4e5dg8886gabab768b6eee" version="1">Carry</content>
+	<content contentuid="hddd90985g30feg4e5dg8886gabab768b6eee" version="1">Beat your draconic wings and take flight, carrying a bonded Drakewarden with you.</content>
+	<content contentuid="hca517f4eg5662g45b0gbb01gda89a2195811" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Once you use this feature, you can’t do so again until you finish a &lt;LSTag Tooltip="LongRest"&gt;long rest&lt;/LSTag&gt;, unless you expend a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; of 3rd level or higher to use it again.</content>
+	<content contentuid="h2ac1b9edgf731g41a8g89e8g68b21293815a" version="1">Drake's Breath: Spell Level 3</content>
+	<content contentuid="h577fed6ag123eg4761gaf79gce5b6985188b" version="1">Drake's Breath: Spell Level 4</content>
+	<content contentuid="h88594d2fgfcfag4d38gb35fg5441ac79b637" version="1">Drake's Breath: Spell Level 5</content>
+	<content contentuid="h4a59fab1g3757g4fadg9977g2404ae8b8032" version="1">Expend a [1] level &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; to use your &lt;LSTag Type="Spell" Tooltip="Zone_DrakeBreath_Drakewarden"&gt;Drake's Breath&lt;/LSTag&gt; ability.</content>
+	<content contentuid="h9c00eb86g94b6g4057g85ffgab1ae52b8400" version="1">Must be bonded Drakewarden.</content>
+	<content contentuid="h61cd9a54gef70g4775gb0dagb74e9ece6ec0" version="1">Drakewardens can  magically summon the drake that is bound to them once per long rest or by expending spell slots.</content>
+	<content contentuid="hfe219475g214dg4b03g9176g1790b516c6f8" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; Once you use this feature, you can’t do so again until you finish a &lt;LSTag Tooltip="LongRest"&gt;long rest&lt;/LSTag&gt;, unless you expend a &lt;LSTag Tooltip="SpellSlot"&gt;spell slot&lt;/LSTag&gt; of 1st level or higher to use it again.</content>
+	<content contentuid="hcae976a6g9842g4dfbg8113ge9cef4da3333" version="1">The pinacle of a Drakewarden's bond to their drake allows them to reduce damage dealt to each other.</content>
+	<content contentuid="h4cf67c05g0843g4f59gbd7fg02a6803441fd" version="1">&lt;LSTag Type="Image" Info="SoftWarning"/&gt; You can use this ability a number of times equal to your proficiency bonus.</content>
+	
+	
+	
+</contentList>

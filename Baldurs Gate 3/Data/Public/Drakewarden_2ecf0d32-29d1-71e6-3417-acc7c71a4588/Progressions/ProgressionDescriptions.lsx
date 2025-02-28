@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="7" revision="1" build="3"/>
+    <region id="ProgressionDescriptions">
+        <node id="root">
+            <children>
+                <node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="h5483d543gba70g4efdga2a8g77432c51cdcb" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="ha4bc6221ga255g47afg8b58g8e9a858c140a" version="1"/>
+                    <attribute id="ExactMatch" type="FixedString" value="Drakewarden"/>
+                    <attribute id="ProgressionTableId" type="guid" value="dddddad5-31e0-41b6-aad9-41a55c2f8354"/>
+                    <attribute id="UUID" type="guid" value="dddcc47d-cc28-400e-bfa9-3a85baa70f24"/> 
+                </node>		
+				<node id="ProgressionDescription">
+                    <attribute id="Description" type="TranslatedString" handle="hcae976a6g9842g4dfbg8113ge9cef4da3333" version="1" />
+                    <attribute id="DisplayName" type="TranslatedString" handle="hde939856g11f7g4b97g9b06gc3c5c6ea89da" version="1" />
+					<attribute id="ParamMatch" type="FixedString" value="0:ReflexiveResistanceUse" />
+					<attribute id="Type" type="FixedString" value="ActionResource" />
+					<attribute id="UUID" type="guid" value="b13b4a00-5529-4481-a69d-eb9e42b54f5b" />
+				</node>						
+            </children>
+        </node>
+    </region>
+</save>

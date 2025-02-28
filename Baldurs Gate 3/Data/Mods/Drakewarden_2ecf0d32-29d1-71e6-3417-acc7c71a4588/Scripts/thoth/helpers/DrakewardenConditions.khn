@@ -1,0 +1,122 @@
+local __util = require 'larian.util'
+
+function ReflexiveResistanceDrakewardenCheck(damageType, entity)
+    local entity = entity or context.Target
+    if (damageType == DamageType.Acid
+        or damageType == DamageType.Cold
+        or damageType == DamageType.Fire
+        or damageType == DamageType.Lightning
+        or damageType == DamageType.Thunder
+        or damageType == DamageType.Necrotic
+        or damageType == DamageType.Radiant
+        or damageType == DamageType.Force
+        or damageType == DamageType.Psychic
+        or damageType == DamageType.Poison
+        or damageType == DamageType.Piercing
+        or damageType == DamageType.Slashing
+        or damageType == DamageType.Bludgeoning
+    ) then
+        return ~IsResistantToDamageType(damageType, entity)
+    end
+end
+
+function SRDCanSee(source, target, from, to)
+	local source = source or context.Source
+	local target = target or context.Target
+    local from = from or context.SourcePosition
+    local to = to or context.Target	
+		
+	return CanSee(source, target) | SRDCanSeeSneaking(source, target, from, to) | SRDCanSeeInvisible(source, target, from, to) | SRDCanSeeBlinded(source, target, from, to) 
+end
+
+function SRDCanSeeSneaking(source, target, from, to)
+    local source = source or context.Source
+    local target = target or context.Target
+    local from = from or context.SourcePosition
+    local to = to or context.Target
+    
+    return HasStatus('SNEAKING', target) & (HasStatus('MIND_SPIKE_OWNER', source) & HasStatus('MIND_SPIKE', target, source))
+end
+
+function SRDCanSeeInvisible(source, target, from, to)
+	local source = source or context.Source
+	local target = target or context.Target
+    local from = from or context.SourcePosition
+    local to = to or context.Target	
+	
+    return Tagged('BLINDSIGHT', source) 
+       |  (HasStatus('MIND_SPIKE_OWNER', source) & HasStatus('MIND_SPIKE', target, source))
+       |  (HasStatus('TRUESIGHT', source) & ~DistanceToEntityGreaterThan(36.5, from, to))
+       | ((HasStatus('SEE_INVISIBILITY', source) | HasStatus('MAG_SEE_INVISIBILITY_HIDDEN_IGNORE_RESTING', source) | HasPassive('AllSeeingEye', source)) & ~DistanceToEntityGreaterThan(18.5, from, to)) 
+       | ((HasPassive('FightingStyle_BlindFighting', source) | (HasPassive('Blindsense', source) & ~(HasPassive('Deafness',source) | HasStatus('SG_Deafened',source)))) & ~DistanceToEntityGreaterThan(3, from, to))	
+end	
+
+function SRDCanSeeBlinded(source, target, from, to)
+    local source = source or context.Source
+    local target = target or context.Target
+    local from = from or context.SourcePosition
+    local to = to or context.Target	
+
+    return HasStatus('SG_Blinded', source) & (Tagged('BLINDSIGHT', source) 
+       |  (HasStatus('MIND_SPIKE_OWNER', source) & HasStatus('MIND_SPIKE', target, source))
+       |  (HasStatus('TRUESIGHT', source) & ~DistanceToEntityGreaterThan(36.5, from, to)) 
+       | ((HasStatus('SEE_INVISIBILITY', source) | HasStatus('MAG_SEE_INVISIBILITY_HIDDEN_IGNORE_RESTING', source) | HasPassive('AllSeeingEye', source)) & ~DistanceToEntityGreaterThan(18.5, from, to)) 
+       | ((HasPassive('FightingStyle_BlindFighting', source) | (HasPassive('Blindsense', source) & ~(HasPassive('Deafness',source) | HasStatus('SG_Deafened',source)))) & ~DistanceToEntityGreaterThan(3, from, to)))
+end
+
+function SRDHasDrakeWithinRange(inclusionStatus, distance, tag, target, source)
+    distance = distance or 9
+    target = target or context.Target
+    source = source or context.Source
+
+    local errorTrue = {ConditionError("HasAllyWithinRange", {ConditionErrorData.MakeFromNumber(distance, EErrorDataType.Distance)})}
+    local errorFalse = {ConditionError("HasNotAllyWithinRange", {ConditionErrorData.MakeFromNumber(distance, EErrorDataType.Distance)})}
+
+    local allies = GetAlliesWithinRange(distance, target, source)
+    if allies ~= nil then
+        for _, entity in ipairs(allies.Allies) do
+            -- ensure entity has the included status
+            local noIncludedStatus = ConditionResult(inclusionStatus == nil)
+            if inclusionStatus then
+                noIncludedStatus = HasStatus(inclusionStatus, entity, source)
+            end
+
+            -- filter by tag if provided
+            local hasTag = ConditionResult(tag == nil)
+            if tag then
+                hasTag = Tagged(tag, entity)
+            end
+
+            if noIncludedStatus.Result and hasTag.Result then
+                return ConditionResult(true, errorFalse, errorTrue)
+            end
+        end
+    end
+
+    return ConditionResult(false, errorFalse, errorTrue)
+end
+
+function IsBondedDrakewarden(source, target)
+	local source = source or context.Source
+	local target = target or context.Target
+	result = SummonOwner(source, target) & Ally() & (Tagged('WEIGHT_MEDIUM') | Tagged('WEIGHT_SMALL') | Tagged('WEIGHT_TINY'))
+    return ConditionResult(result.Result, {ConditionError("NotIsDrakewarden")})
+end
+
+function DrakeCompanionSpellCheck()
+    return SpellId('Target_DrakeCompanion') | SpellId('Target_DrakeCompanion_Fire') | SpellId('Target_DrakeCompanion_Cold') | SpellId('Target_DrakeCompanion_Lightning') | 
+	SpellId('Target_DrakeCompanion_Acid') | SpellId('Target_DrakeCompanion_Poison') | SpellId('Target_DrakeCompanion_2') | SpellId('Target_DrakeCompanion_Fire_2') | 
+	SpellId('Target_DrakeCompanion_Cold_2') | SpellId('Target_DrakeCompanion_Lightning_2') | SpellId('Target_DrakeCompanion_Acid_2') | SpellId('Target_DrakeCompanion_Poison_2') | 
+	SpellId('Target_DrakeCompanion_3') | SpellId('Target_DrakeCompanion_Fire_3') | SpellId('Target_DrakeCompanion_Cold_3') | SpellId('Target_DrakeCompanion_Lightning_3') | 
+	SpellId('Target_DrakeCompanion_Acid_3') | SpellId('Target_DrakeCompanion_Poison_3') | SpellId('Target_DrakeCompanion_4') | SpellId('Target_DrakeCompanion_Fire_4') | 
+	SpellId('Target_DrakeCompanion_Cold_4') | SpellId('Target_DrakeCompanion_Lightning_4') | SpellId('Target_DrakeCompanion_Acid_4') | SpellId('Target_DrakeCompanion_Poison_4') | 
+	SpellId('Target_DrakeCompanion_5') | SpellId('Target_DrakeCompanion_Fire_5') | SpellId('Target_DrakeCompanion_Cold_5') | SpellId('Target_DrakeCompanion_Lightning_5') | 
+	SpellId('Target_DrakeCompanion_Acid_5') | SpellId('Target_DrakeCompanion_Poison_5')
+end
+
+
+function DrakesBreathSpellCheck()
+    return SpellId('Zone_DrakeBreath_Drakewarden') | SpellId('Zone_DrakeBreath_AcidBreath') | SpellId('Zone_DrakeBreath_ColdBreath') | SpellId('Zone_DrakeBreath_FireBreath') | SpellId('Zone_DrakeBreath_LightningBreath') | SpellId('Zone_DrakeBreath_PoisonBreath')   
+end
+
+

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="7" revision="1" build="3" lslib_meta="v1,bswap_guids,lsf_keys_adjacency" />
+	<region id="TextureBank">
+		<node id="TextureBank">
+			<children>
+				<node id="Resource">
+					<attribute id="ID" type="FixedString" value="8dfd96ac-d424-4558-999c-08eae717fa3f" />
+					<attribute id="Name" type="LSString" value="Icons_Drakewarden" />
+					<attribute id="SourceFile" type="LSString" value="Public/Drakewarden_2ecf0d32-29d1-71e6-3417-acc7c71a4588/Assets/Textures/Icons/Icons_Drakewarden.DDS" />
+					<attribute id="Template" type="FixedString" value="Icons_Drakewarden" />
+					<attribute id="Streaming" type="bool" value="True" />
+					<attribute id="Type" type="int32" value="1" />
+					<attribute id="SRGB" type="bool" value="True" />
+					<attribute id="Width" type="int32" value="2048" />
+					<attribute id="Height" type="int32" value="2048" />
+					<attribute id="Depth" type="int32" value="1" />
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

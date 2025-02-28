@@ -1,0 +1,6 @@
+new entry "ANIMATION_LOOP_TEST_DRAKEWARDEN"
+type "StatusData"
+data "StatusType" "INCAPACITATED"
+data "DisplayName" "hb57a0eadg6430g4008gafedg832dd0602059;2"
+data "AnimationLoop" "e22702f5-04d5-41a1-97ac-9b9f6b317d98"
+data "StatusPropertyFlags" ""
