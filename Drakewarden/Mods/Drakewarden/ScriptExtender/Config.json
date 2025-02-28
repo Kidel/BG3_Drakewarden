@@ -1,8 +1,0 @@
-{
-    "RequiredVersion": 1,
-    "ModTable": "Drakewarden",
-    "FeatureFlags": [
-        "Osiris",
-        "Lua"
-    ]
-}
